@@ -73,10 +73,10 @@ def load_response_schema(workflow: str, step: Optional[int] = None) -> Dict[str,
     try:
         if step is not None:
             logger.info(f"Loading multi-step response schema for workflow: {workflow}, step: {step}")
-            response_schema_path = os.path.join(config.DATA_DIR, f'templates/{workflow}/step_{step}_response.json')
+            response_schema_path = os.path.join(config.DATA_DIR, f'templates/schema/{workflow}/step_{step}_response.json')
         else:
             logger.info(f"Loading single-step response schema for workflow: {workflow}")
-            response_schema_path = os.path.join(config.DATA_DIR, f'templates/{workflow}/response.json')
+            response_schema_path = os.path.join(config.DATA_DIR, f'templates/schema/{workflow}/response.json')
 
         response_schema_content = load_file(response_schema_path)
         response_schema = json.loads(response_schema_content)

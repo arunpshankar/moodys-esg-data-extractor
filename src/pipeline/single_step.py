@@ -107,7 +107,7 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-def extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
+def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
     try:
         
         system_instruction = load_system_instruction(workflow='single_step', step=None)
@@ -123,12 +123,11 @@ def extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
 
 
 def run(file_name: str):
-    file_name = ""
     file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}.pdf')
     pdf_bytes = load_binary_file(file_path)
     pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
 
-    extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, 'out_step.txt'))
+    llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, 'out_step.txt'))
     
     convert_json_to_jsonl(os.path.join(OUTPUT_DIR, 'out_step.txt'), os.path.join(VALIDATION_DIR, f'{file_name}.jsonl'))
    
