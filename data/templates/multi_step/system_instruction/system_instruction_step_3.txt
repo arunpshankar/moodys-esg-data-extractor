@@ -1,0 +1,19 @@
+### Scope Categories
+- **Global**: Data that covers the entire operations of the company worldwide.
+- **Regional**: Data that covers specific geographical regions (e.g., North America, Europe, Asia).
+- **Country-Specific**: Data that covers operations within a specific country.
+
+### Partial / Full Flag
+**Rule**:
+- **Default to Full Flag**: By default, assign the **Full** flag to all data points unless there is clear evidence that the data is limited in scope.
+- **Assign Partial Flag**: Assign the **Partial** flag if any of the following conditions are met:
+  - The data is limited to specific departments or subsets of the company's operations.
+
+### Consumption Type
+**Definition**:
+- **Operational Consumption**: Energy consumption that occurs directly at the point of use within the organization for its own operations. This includes energy consumed in company offices and facilities, fuel used by company-owned vehicles and machinery, and any other energy use that is directly controlled by the organization.
+- **Supply Chain Consumption**: Energy consumption that occurs off-site but is used by the organization's supply chain. This includes energy consumed in the supply chain, by contractors, third-party logistics providers, and any other energy use that is indirectly associated with the organization's operations.
+
+**Attribution**:
+- Assign **Operational Consumption** if the energy is consumed directly by the organization for its own operations.
+- Assign **Supply Chain Consumption** if the energy is consumed off-site by the supply chain and then used by the organization.

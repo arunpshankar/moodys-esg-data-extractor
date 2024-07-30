@@ -1,0 +1,41 @@
+## Metrics to Extract
+
+### Units of Measurement
+- **Energy Units**: GWh, MWh, kWh, TJ, GJ, MJ
+- **Volume Units**: liters, gallons, cubic meters
+- **Mass Units**: tons, barrels
+
+### Total Energy Consumption Metrics
+- **Total energy consumption** (Code: 429, Units: Energy Units): Includes all forms of energy (electricity, gas, etc.) consumed by the organization.
+- **Total energy consumption from non-renewable sources** (Code: 711, Units: Energy Units): Includes all non-renewable sources listed in the Non-Renewable Energy Sources section and is focused on consumption.
+- **Total energy consumption from renewable sources** (Code: 432, Units: Energy Units): Includes all renewable sources listed in the Renewable Energy Sources section and is focused on consumption.
+- **Share of non-renewable energy consumption** (Code: 817, Unit: %): A percentage of the total energy consumption.
+- **Share of renewable energy consumption** (Code: 819, Unit: %): A percentage of the total energy consumption.
+
+### Renewable Energy Sources
+- **Total electricity use** (Code: 1701, Units: Energy Units): Includes electricity from both renewable and non-renewable sources consumed by the organization.
+- **Electricity from renewable sources** (Code: 1702, Units: Energy Units): A subset of the total electricity use and is focused on consumption.
+- **Bioenergy: Biofuels (Biodiesel, Ethanol)** (Code: RE001, Units: Energy Units, Volume Units): Includes all types of biofuels consumed by the organization.
+- **Bioenergy: Biomass** (Code: RE002, Units: Energy Units, Mass Units): Focused on consumption.
+- **Bioenergy: Landfill Gas** (Code: 779, Units: Energy Units, Volume Units): Includes all types of gases from landfills consumed by the organization.
+- **Bioenergy: Sewage Treatment Plant Gas** (Code: 780, Units: Energy Units, Volume Units): Includes all types of gases from sewage treatment plants consumed by the organization.
+- **Bioenergy: Biogas** (Code: 781, Units: Energy Units, Volume Units): Includes all types of biogas consumed by the organization.
+- **Bioenergy: Wood** (Code: RE003, Units: Energy Units, Mass Units): Focused on consumption.
+- **Direct Solar Energy: Solar Photovoltaics (PV)** (Code: RE004, Units: Energy Units): Focused on consumption.
+- **Direct Solar Energy: Solar Thermal** (Code: RE005, Units: Energy Units): Focused on consumption.
+- **Geothermal Energy** (Code: 774, Units: Energy Units)
+- **Hydropower Energy** (Code: 777, Units: Energy Units)
+- **Ocean Energy: Wave** (Code: 776, Units: Energy Units)
+- **Ocean Energy: Tidal/Tide** (Code: 776, Units: Energy Units)
+- **Ocean Energy: Ocean Thermal** (Code: 776, Units: Energy Units)
+- **Wind Energy** (Code: 772, Units: Energy Units)
+- **Nuclear Power: Uranium** (Code: RE015, Units: Energy Units, Mass Units)
+- **Ambient Energy** (Code: 775, Units: Energy Units)
+
+### Non-Renewable Energy Sources
+- **Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite** (Code: 783, Units: Energy Units, Mass Units): Focused on consumption.
+- **Natural Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **City Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **Town Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen** (Code: NRE005, Units: Energy Units, Volume Units, Mass Units): Focused on consumption.
+- **Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium** (Code: 789, Units: Energy Units, Volume Units): Focused on consumption.
