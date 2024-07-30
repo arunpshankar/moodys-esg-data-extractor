@@ -1,0 +1,16 @@
+For each metric listed in the provided text file:
+        
+Extract the following information from the corresponding PDF:
+
+* Raw numerical value
+* Unit of measurement
+* Page number
+* Relevant text snippet
+
+Important notes:
+
+* Include metrics with null values in the output
+* Maintain the original order of metrics as listed in the text file
+* Ensure the output contains the same number of items as the input list
+
+Present the information in a structured format for each metric.

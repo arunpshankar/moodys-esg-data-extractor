@@ -1,0 +1,20 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "code": {"type": "string", "pattern": "^[A-Za-z0-9_]{1,20}$"},
+            "item": {"type": "string", "pattern": "^[A-Za-z0-9 ]{1,50}$"},
+            "value": {"type": "number"},
+            "unit": {"type": "string", "pattern": "^[A-Za-z0-9 ]{1,20}$"},
+            "page_number": {"type": "number"},
+            "snippet": {"type": "string", "pattern": "^.{1,500}$"},
+            "year": {"type": "number", "minimum": 1900, "maximum": 2100},
+            "scope": {"type": "string", "pattern": "^[A-Za-z0-9 ]{1,100}$"},
+            "flag": {"type": "string", "pattern": "^[A-Za-z ]{1,50}$"},
+            "flag_reasoning": {"type": "string", "pattern": "^.{1,500}$"},
+            "consumption_type": {"type": "string", "pattern": "^[A-Za-z ]{1,50}$"}
+        },
+        "required": ["code", "item", "value", "unit", "page_number", "snippet", "year", "scope", "flag", "flag_reasoning", "consumption_type"]
+    }
+}

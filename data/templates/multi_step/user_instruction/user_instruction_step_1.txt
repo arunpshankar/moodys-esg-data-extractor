@@ -1,0 +1,1 @@
+Identify all energy consumption metrics mentioned in the document. Return each metric with its code and item name.

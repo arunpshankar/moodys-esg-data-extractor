@@ -1,1 +1,1 @@
-Analyze the following PDF and follow the rules.
+Analyze the following PDF and follow the rules provided.

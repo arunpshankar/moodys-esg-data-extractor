@@ -1,0 +1,4 @@
+For each extracted metric, using the provided PDF:
+* Determine the reporting year, focusing on the most recent if multiple years are present.
+* Assign a scope (Global, Regional, or Country-Specific) and a flag (Full or Partial) to each value. Provide reasoning for the flag assignment.
+* Classify each value as either 'Operational Consumption' or 'Supply Chain Consumption' based on the context in the document.
