@@ -108,8 +108,16 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
 
 
 def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
+    """
+    Extract information from a PDF using a generative model and save the output.
+
+    Args:
+        model (GenerativeModel): The generative model to use for extraction.
+        pdf_parts (Part): The PDF parts to be processed.
+        output_path (str): The path to save the extracted information.
+    """
     try:
-        
+        logger.info("Starting LLM extraction")
         system_instruction = load_system_instruction(workflow='single_step', step=None)
         user_instruction = load_user_instruction(workflow='single_step', step=None)
         response_schema = load_response_schema(workflow='single_step', step=None)
@@ -117,20 +125,31 @@ def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
         contents = [pdf_parts, user_instruction]
         response = generate_response(model, contents, response_schema)
         save_json(response, output_path)
-        
+        logger.info("LLM extraction completed successfully")
     except Exception as e:
-        logger.error(e)
+        logger.error(f"Error in LLM extraction: {e}")
+        raise  # Re-raise the exception after logging
 
 
 def run(file_name: str):
-    file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}.pdf')
-    pdf_bytes = load_binary_file(file_path)
-    pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
+    """
+    Run the extraction process on a specified PDF file.
 
-    llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt'))
-    
-    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt'), os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'))
-   
+    Args:
+        file_name (str): The name of the PDF file to process.
+    """
+    try:
+        logger.info(f"Running extraction for file: {file_name}")
+        file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}.pdf')
+        pdf_bytes = load_binary_file(file_path)
+        pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
+        output_path = os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt')
+        llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, output_path)
+        convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'))
+        logger.info("Extraction process completed successfully")
+    except Exception as e:
+        logger.error(f"Error in run process: {e}")
+        raise  # Re-raise the exception after logging
 
 
 if __name__ == '__main__':
