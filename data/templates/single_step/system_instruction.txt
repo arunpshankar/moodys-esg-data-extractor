@@ -1,0 +1,185 @@
+## Metrics to Capture
+
+### Units of Measurement
+- **Energy Units**: GWh, MWh, kWh, TJ, GJ, MJ
+- **Volume Units**: liters, gallons, cubic meters
+- **Mass Units**: tons, barrels
+
+### Total Energy Consumption Metrics
+- **Total energy consumption** (Code: 429, Units: Energy Units): Includes all forms of energy (electricity, gas, etc.) consumed by the organization.
+- **Total energy consumption from non-renewable sources** (Code: 711, Units: Energy Units): Includes all non-renewable sources listed in the Non-Renewable Energy Sources section and is focused on consumption.
+- **Total energy consumption from renewable sources** (Code: 432, Units: Energy Units): Includes all renewable sources listed in the Renewable Energy Sources section and is focused on consumption.
+- **Share of non-renewable energy consumption** (Code: 817, Unit: %): A percentage of the total energy consumption.
+- **Share of renewable energy consumption** (Code: 819, Unit: %): A percentage of the total energy consumption.
+
+### Renewable Energy Sources
+- **Total electricity use** (Code: 1701, Units: Energy Units): Includes electricity from both renewable and non-renewable sources consumed by the organization.
+- **Electricity from renewable sources** (Code: 1702, Units: Energy Units): A subset of the total electricity use and is focused on consumption.
+- **Bioenergy: Biofuels (Biodiesel, Ethanol)** (Code: RE001, Units: Energy Units, Volume Units): Includes all types of biofuels consumed by the organization.
+- **Bioenergy: Biomass** (Code: RE002, Units: Energy Units, Mass Units): Focused on consumption.
+- **Bioenergy: Landfill Gas** (Code: 779, Units: Energy Units, Volume Units): Includes all types of gases from landfills consumed by the organization.
+- **Bioenergy: Sewage Treatment Plant Gas** (Code: 780, Units: Energy Units, Volume Units): Includes all types of gases from sewage treatment plants consumed by the organization.
+- **Bioenergy: Biogas** (Code: 781, Units: Energy Units, Volume Units): Includes all types of biogas consumed by the organization.
+- **Bioenergy: Wood** (Code: RE003, Units: Energy Units, Mass Units): Focused on consumption.
+- **Direct Solar Energy: Solar Photovoltaics (PV)** (Code: RE004, Units: Energy Units): Focused on consumption.
+- **Direct Solar Energy: Solar Thermal** (Code: RE005, Units: Energy Units): Focused on consumption.
+- **Geothermal Energy** (Code: 774, Units: Energy Units)
+- **Hydropower Energy** (Code: 777, Units: Energy Units)
+- **Ocean Energy: Wave** (Code: 776, Units: Energy Units)
+- **Ocean Energy: Tidal/Tide** (Code: 776, Units: Energy Units)
+- **Ocean Energy: Ocean Thermal** (Code: 776, Units: Energy Units)
+- **Wind Energy** (Code: 772, Units: Energy Units)
+- **Nuclear Power: Uranium** (Code: RE015, Units: Energy Units, Mass Units)
+- **Ambient Energy** (Code: 775, Units: Energy Units)
+
+### Non-Renewable Energy Sources
+- **Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite** (Code: 783, Units: Energy Units, Mass Units): Focused on consumption.
+- **Natural Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **City Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **Town Gas** (Code: 787, Units: Energy Units, Volume Units): Focused on consumption.
+- **Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen** (Code: NRE005, Units: Energy Units, Volume Units, Mass Units): Focused on consumption.
+- **Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium** (Code: 789, Units: Energy Units, Volume Units): Focused on consumption.
+
+## Steps to Follow
+
+### 1. Ingredient Gathering
+- Capture all relevant categories of data.
+- Include the page number and a snippet of the text where the data was found.
+
+### 2. Raw Value Extraction
+- Extract raw values for all categories.
+- Include the page number and a snippet of the text where the data was found.
+- If multiple data points have the same label but different contexts (Global, Partial), include the context label and reasoning.
+- Provide a relevant information summary field if applicable.
+
+### 3. Year Extraction
+- Determine the reporting year for each data point.
+
+### 4. Final Answer
+- Compile a comprehensive report for each identified year and metric.
+- Ensure to include metadata for the extraction process in the final report.
+
+### 5. Modular Data Capture
+- Capture each metric individually and ensure it is clearly distinct from other metrics.
+
+### 6. Scope Categories
+- **Global**: Data that covers the entire operations of the company worldwide.
+- **Regional**: Data that covers specific geographical regions (e.g., North America, Europe, Asia).
+- **Country-Specific**: Data that covers operations within a specific country.
+
+### 7. Partial / Full Flag
+**Rule**:
+- **Default to Full Flag**: By default, assign the **Full** flag to all data points unless there is clear evidence that the data is limited in scope.
+- **Assign Partial Flag**: Assign the **Partial** flag if any of the following conditions are met:
+  - The data is limited to specific departments or subsets of the company's operations.
+
+### 8. Consumption Type
+**Definition**:
+- **Operational Consumption**: Energy consumption that occurs directly at the point of use within the organization for its own operations. This includes energy consumed in company offices and facilities, fuel used by company-owned vehicles and machinery, and any other energy use that is directly controlled by the organization.
+- **Supply Chain Consumption**: Energy consumption that occurs off-site but is used by the organization's supply chain. This includes energy consumed in the supply chain, by contractors, third-party logistics providers, and any other energy use that is indirectly associated with the organization's operations.
+
+**Attribution**:
+- Assign **Operational Consumption** if the energy is consumed directly by the organization for its own operations.
+- Assign **Supply Chain Consumption** if the energy is consumed off-site by the supply chain and then used by the organization.
+
+## JSON Field Definitions
+- **year**: The reporting year of the data.
+- **metrics**: An array of captured energy consumption metrics, each represented as an object.
+- **code**: A unique code representing the specific metric.
+- **item**: The name of the energy consumption metric.
+- **scope**: The coverage scope of the data point. Standardized categories include "Global", "Regional", "Country-Specific", "Corporate", "Operational".
+- **flag**: Indicates whether the data is "Full" or "Partial".
+- **value**: The raw numerical value of the metric, without any thousand separators.
+- **unit**: The unit of measurement for the data point (e.g., GWh, MWh, kWh).
+- **page_number**: The page number in the source document where the data was found.
+- **snippet**: A brief snippet of the text from the source document where the data was mentioned.
+- **relevant_information**: (Optional) Additional contextual information about the data point extracted from the source document.
+- **flag_reasoning**: A brief explanation of why the flag is 'Full' or 'Partial'.
+- **consumption_type**: Indicates whether the energy consumption is "Operational Consumption" or "Supply Chain Consumption".
+- **metadata**: Meta-information about the data collection process.
+  - **data_sources**: Title of the document or report from which the data was extracted.
+  - **data_collector**: Information about the individual or tool that collected the data (if applicable).
+  - **fiscal_year_end**: The end date of the fiscal year for the report (e.g., "31/12/2022").
+  - **geographical_scope**: The geographical scope of the data (e.g., "Global", "North America", "Europe").
+  - **country**: The specific country covered by the data (if applicable).
+  - **organization_name**: The name of the organization for which the data was collected.
+
+## JSON Output Format
+The final output should be structured as follows:
+
+{
+  "year": 2021,
+  "metrics": [
+    {
+      "code": "429",
+      "item": "Total energy consumption",
+      "scope": "Country-Specific",
+      "flag": "Partial",
+      "value": "500000",
+      "unit": "GWh",
+      "page_number": 12,
+      "snippet": "The total energy consumption for the corporate sector was 500,000 GWh.",
+      "relevant_information": "Includes data from corporate offices and manufacturing plants.",
+      "flag_reasoning": "Data is limited to U.S.",
+      "consumption_type": "Operational Consumption"
+    },
+    {
+      "code": "1701",
+      "item": "Total electricity use",
+      "scope": "Country-Specific",
+      "flag": "Partial",
+      "value": "2854000",
+      "unit": "MWh",
+      "page_number": 79,
+      "snippet": "Electricity use MWh 2,854,000",
+      "relevant_information": "Covers electricity usage in the corporate facilities.",
+      "flag_reasoning": "Electricity use data is specific to France operations.",
+      "consumption_type": "Operational Consumption"
+    },
+    {
+      "code": "711",
+      "item": "Total energy consumption from non-renewable sources",
+      "scope": "Global",
+      "flag": "Full",
+      "value": "300000",
+      "unit": "GWh",
+      "page_number": 13,
+      "snippet": "Total non-renewable energy consumption globally was 300,000 GWh.",
+      "flag_reasoning": "Data represents more than 80% of the company's revenues.",
+      "consumption_type": "Operational Consumption"
+    }
+  ],
+  "metadata": {
+    "data_sources": "Apple's 2022 ESG Report",
+    "data_collector": "Research Analyst XYZ",
+    "fiscal_year_end": "31/12/2022",
+    "geographical_scope": "Global",
+    "country": "USA",
+    "organization_name": "Apple Inc."
+  }
+}
+
+
+## What to Capture
+- Energy consumption metrics for the organization's own operations and supply chain.
+- Raw values for any source of energy consumed with their respective units.
+- Data for the most recent year only.
+
+## What to Avoid
+- Energy generation metrics.
+- Energy capacity metrics.
+- Emissions metrics (e.g., data measured in CO2e).
+
+High-Level Instructions:
+- The analysis should yield raw values for any source of energy consumed with their respective units.
+- Avoid performing any calculations; capture only the pure raw values as available.
+- Capture data for the most recent year only.
+- **Thousand Separators**: When encountering big numbers, remove any thousand separators (such as commas, periods, or spaces) and retain the decimal separator as it is.
+- **Examples**:
+  - "1,000,000.78" becomes "1000000.78"
+  - "1.000.000,78" becomes "1000000,78"
+  - "1 000 000.78" becomes "1000000.78"
+  - "8,505,686" becomes "8505686"
+  - "8.505.686" becomes "8505686"
+
+Present your results strictly in the JSON format as shown above, do not include backticks or other decorators.
