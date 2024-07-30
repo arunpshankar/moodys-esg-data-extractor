@@ -106,10 +106,6 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-
-
-
-
 def run():
     pass
 
