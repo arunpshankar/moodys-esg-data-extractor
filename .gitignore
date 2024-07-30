@@ -6,6 +6,20 @@ __pycache__/
 # C extensions
 *.so
 
+# venv 
+.moodys-esg-data-extractor
+.moodys-esg-data-extractor/
+.venv
+.venv/
+
+# .DS_Store
+.DS_Store
+.DS_Store/
+
+# credentials 
+credentials
+credentials/
+
 # Distribution / packaging
 .Python
 build/
