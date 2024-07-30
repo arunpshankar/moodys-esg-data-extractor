@@ -124,15 +124,15 @@ def extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
 
 def run(file_name: str):
     file_name = ""
-    file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}')
+    file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}.pdf')
     pdf_bytes = load_binary_file(file_path)
     pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
 
     extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, 'out_step.txt'))
-    filename = filename.replace('.pdf', '')
-    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, 'out_step.txt'), os.path.join(VALIDATION_DIR, f'{filename}.jsonl'))
+    
+    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, 'out_step.txt'), os.path.join(VALIDATION_DIR, f'{file_name}.jsonl'))
    
 
 
 if __name__ == '__main__':
-    run('84535104943034784.pdf')
+    run('84535104943034784')
