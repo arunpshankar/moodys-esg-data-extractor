@@ -33,6 +33,7 @@ class Config:
         self.CREDENTIALS_PATH = self.__config['credentials_json']
         self._set_google_credentials(self.CREDENTIALS_PATH)
         self.TEXT_GEN_MODEL_NAME = self.__config['text_gen_model_name']
+        self.DATA_DIR = self.__config['data_dir']
 
     @staticmethod
     def _load_config(config_path: str) -> Dict[str, Any]:
