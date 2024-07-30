@@ -1,7 +1,6 @@
 from src.config.logging import logger
 from typing import Dict
 from typing import Any
-import subprocess
 import yaml
 import os
 
