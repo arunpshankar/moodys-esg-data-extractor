@@ -7,9 +7,12 @@ from src.utils.template import load_response_schema
 from vertexai.generative_models import HarmCategory
 from src.utils.io import convert_json_to_jsonl
 from vertexai.generative_models import Part
+from src.utils.io import load_binary_file
 from src.config.logging import logger
 from src.config.setup import config
+
 from src.utils.io import load_file
+from src.utils.io import save_json
 from typing import Optional 
 from typing import List
 from typing import Dict 
@@ -104,16 +107,32 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-def run(model: GenerativeModel, pdf_parts: Part, output_path: str):
+def extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
     try:
-        logger.info("Starting processing ...")
-        system_instruction = 
+        
+        system_instruction = load_system_instruction(workflow='single_step', step=None)
+        user_instruction = load_user_instruction(workflow='single_step', step=None)
+        response_schema = load_response_schema(workflow='single_step', step=None)
         model = GenerativeModel(config.TEXT_GEN_MODEL_NAME, system_instruction=system_instruction)
-        user_prompt = "Analyze the following PDF and follow the rules."
-        contents = [pdf_parts, user_prompt]
+        contents = [pdf_parts, user_instruction]
+        response = generate_response(model, contents, response_schema)
+        save_json(response, output_path)
+        
     except Exception as e:
         logger.error(e)
 
 
+def run(file_name: str):
+    file_name = ""
+    file_path = os.path.join(config.DATA_DIR, f'docs/{file_name}')
+    pdf_bytes = load_binary_file(file_path)
+    pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
+
+    extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, 'out_step.txt'))
+    filename = filename.replace('.pdf', '')
+    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, 'out_step.txt'), os.path.join(VALIDATION_DIR, f'{filename}.jsonl'))
+   
+
+
 if __name__ == '__main__':
-    run()
+    run('84535104943034784.pdf')
