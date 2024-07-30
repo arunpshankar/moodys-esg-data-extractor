@@ -75,3 +75,43 @@ def save_json(data: Any, file_path: str) -> bool:
         logger.error(f"Error saving JSON data to {file_path}: {e}")
     return False
 
+
+def convert_json_to_jsonl(input_file: str, output_file: str) -> None:
+    """
+    Convert a JSON file to a JSONL file.
+
+    Args:
+        input_file (str): The path to the input JSON file.
+        output_file (str): The path to the output JSONL file.
+    """
+    try:
+        logger.info(f"Reading the input JSON file: {input_file}")
+        with open(input_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        # Ensure the output directory exists
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        logger.info(f"Ensured the output directory exists: {os.path.dirname(output_file)}")
+
+        logger.info(f"Writing data to the output JSONL file: {output_file}")
+        with open(output_file, 'w', encoding='utf-8') as f:
+            for item in data["metrics"]:
+                json_line = json.dumps(item)
+                f.write(json_line + '\n')
+        logger.info(f"Successfully converted JSON to JSONL: {output_file}")
+
+    except FileNotFoundError:
+        logger.error(f"File not found: {input_file}")
+        raise
+    except json.JSONDecodeError as e:
+        logger.error(f"Error decoding JSON from {input_file}: {e}")
+        raise
+    except IOError as e:
+        logger.error(f"Error reading or writing file: {e}")
+        raise
+    except KeyError as e:
+        logger.error(f"Missing expected key in JSON data: {e}")
+        raise
+    except Exception as e:
+        logger.error(f"An unexpected error occurred: {e}")
+        raise

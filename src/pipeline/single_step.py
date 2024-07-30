@@ -2,7 +2,9 @@ from vertexai.generative_models import HarmBlockThreshold
 from vertexai.generative_models import GenerationConfig
 from vertexai.generative_models import GenerativeModel
 from vertexai.generative_models import HarmCategory
+from src.utils.io import convert_json_to_jsonl
 from vertexai.generative_models import Part
+
 from src.config.logging import logger
 from src.config.setup import config
 from typing import Optional 
@@ -11,6 +13,9 @@ from typing import Dict
 from typing import Any 
 import json
 import os
+
+
+
 
 
 DATA_DIR = './data'
@@ -103,13 +108,6 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
 
 
 
-
-
-
-
-def post_process(input_file, output_file):
-    convert_json_to_jsonl(input_file, output_file)
-    print(f"Conversion complete. JSONL file saved as {output_file}")
 
 
 def run():
