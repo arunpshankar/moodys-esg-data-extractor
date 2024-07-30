@@ -127,9 +127,9 @@ def run(file_name: str):
     pdf_bytes = load_binary_file(file_path)
     pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
 
-    llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, 'out_step.txt'))
+    llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt'))
     
-    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, 'out_step.txt'), os.path.join(VALIDATION_DIR, f'{file_name}.jsonl'))
+    convert_json_to_jsonl(os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt'), os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'))
    
 
 
