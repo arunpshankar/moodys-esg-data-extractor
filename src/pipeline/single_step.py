@@ -1,12 +1,15 @@
 from vertexai.generative_models import HarmBlockThreshold
 from vertexai.generative_models import GenerationConfig
+from src.utils.template import load_system_instruction
 from vertexai.generative_models import GenerativeModel
+from src.utils.template import load_user_instruction
+from src.utils.template import load_response_schema
 from vertexai.generative_models import HarmCategory
 from src.utils.io import convert_json_to_jsonl
 from vertexai.generative_models import Part
-
 from src.config.logging import logger
 from src.config.setup import config
+from src.utils.io import load_file
 from typing import Optional 
 from typing import List
 from typing import Dict 
@@ -15,13 +18,8 @@ import json
 import os
 
 
-
-
-
-DATA_DIR = './data'
-OUTPUT_DIR = os.path.join(DATA_DIR, 'output')
-VALIDATION_DIR = os.path.join(DATA_DIR, 'validation')
-
+OUTPUT_DIR = os.path.join(config.DATA_DIR, 'output')
+VALIDATION_DIR = os.path.join(config.DATA_DIR, 'validation')
 
 def create_generation_config(response_schema: Dict[str, Any]) -> GenerationConfig:
     """
@@ -106,8 +104,15 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-def run():
-    pass
+def run(model: GenerativeModel, pdf_parts: Part, output_path: str):
+    try:
+        logger.info("Starting processing ...")
+        system_instruction = 
+        model = GenerativeModel(config.TEXT_GEN_MODEL_NAME, system_instruction=system_instruction)
+        user_prompt = "Analyze the following PDF and follow the rules."
+        contents = [pdf_parts, user_prompt]
+    except Exception as e:
+        logger.error(e)
 
 
 if __name__ == '__main__':
