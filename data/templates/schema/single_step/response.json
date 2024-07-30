@@ -1,94 +1,94 @@
 {
-    "type": "object",
-    "properties": {
-      "year": {
-        "type": "integer",
-        "minimum": 1900,
-        "maximum": 2100
-      },
-      "metrics": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "code": {
-              "type": "string",
-              "pattern": "^[A-Za-z0-9_]{1,20}$"
-            },
-            "item": {
-              "type": "string",
-              "pattern": "^[A-Za-z0-9 ]{1,50}$"
-            },
-            "scope": {
-              "type": "string",
-              "pattern": "^[A-Za-z0-9 ]{1,100}$"
-            },
-            "flag": {
-              "type": "string",
-              "pattern": "^[A-Za-z ]{1,50}$"
-            },
-            "value": {
-              "type": "string",
-              "pattern": "^[A-Za-z0-9 ]{1,50}$"
-            },
-            "unit": {
-              "type": "string",
-              "pattern": "^[A-Za-z0-9 ]{1,20}$"
-            },
-            "page_number": {
-              "type": "integer",
-              "minimum": 1
-            },
-            "snippet": {
-              "type": "string",
-              "maxLength": 500
-            },
-            "relevant_information": {
-              "type": "string",
-              "maxLength": 500
-            },
-            "flag_reasoning": {
-              "type": "string",
-              "maxLength": 500
-            },
-            "consumption_type": {
-              "type": "string",
-              "pattern": "^[A-Za-z ]{1,50}$"
-            }
-          },
-          "required": ["code", "item", "scope", "flag", "value", "unit", "page_number", "snippet", "flag_reasoning", "consumption_type"]
-        }
-      },
-      "metadata": {
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
         "type": "object",
         "properties": {
-          "data_sources": {
+          "code": {
             "type": "string",
-            "maxLength": 200
+            "pattern": "^[A-Za-z0-9_]{1,20}$"
           },
-          "data_collector": {
+          "item": {
             "type": "string",
-            "maxLength": 100
+            "pattern": "^[A-Za-z0-9 ]{1,50}$"
           },
-          "fiscal_year_end": {
-            "type": "string",
-            "pattern": "^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19|20)\\d\\d$"
-          },
-          "geographical_scope": {
-            "type": "string",
-            "pattern": "^[A-Za-z ]{1,50}$"
-          },
-          "country": {
-            "type": "string",
-            "pattern": "^[A-Za-z ]{1,50}$"
-          },
-          "organization_name": {
+          "scope": {
             "type": "string",
             "pattern": "^[A-Za-z0-9 ]{1,100}$"
+          },
+          "flag": {
+            "type": "string",
+            "pattern": "^[A-Za-z ]{1,50}$"
+          },
+          "value": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9 ]{1,50}$"
+          },
+          "unit": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9 ]{1,20}$"
+          },
+          "page_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "snippet": {
+            "type": "string",
+            "pattern": "^.{1,500}$"
+          },
+          "relevant_information": {
+            "type": "string",
+            "pattern": "^.{1,500}$"
+          },
+          "flag_reasoning": {
+            "type": "string",
+            "pattern": "^.{1,500}$"
+          },
+          "consumption_type": {
+            "type": "string",
+            "pattern": "^[A-Za-z ]{1,50}$"
           }
         },
-        "required": ["data_sources", "data_collector", "fiscal_year_end", "geographical_scope", "country", "organization_name"]
+        "required": ["code", "item", "scope", "flag", "value", "unit", "page_number", "snippet", "flag_reasoning", "consumption_type"]
       }
     },
-    "required": ["year", "metrics", "metadata"]
-  }
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "data_sources": {
+          "type": "string",
+          "pattern": "^.{1,200}$"
+        },
+        "data_collector": {
+          "type": "string",
+          "pattern": "^.{1,100}$"
+        },
+        "fiscal_year_end": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01])\\/(19|20)\\d\\d$"
+        },
+        "geographical_scope": {
+          "type": "string",
+          "pattern": "^[A-Za-z ]{1,50}$"
+        },
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Za-z ]{1,50}$"
+        },
+        "organization_name": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9 ]{1,100}$"
+        }
+      },
+      "required": ["data_sources", "data_collector", "fiscal_year_end", "geographical_scope", "country", "organization_name"]
+    }
+  },
+  "required": ["year", "metrics", "metadata"]
+}

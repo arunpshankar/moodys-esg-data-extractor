@@ -34,7 +34,7 @@ def load_system_instruction(workflow: str, step: Optional[int] = None) -> List[s
         raise
 
 
-def load_user_instruction(workflow: str, step: Optional[int] = None) -> List[str]:
+def load_user_instruction(workflow: str, step: Optional[int] = None) -> str:
     """
     Load user instructions based on the workflow and step.
 
@@ -43,15 +43,15 @@ def load_user_instruction(workflow: str, step: Optional[int] = None) -> List[str
         step (Optional[int]): The step number, can be 0, 1, 2, or 3 if applicable.
 
     Returns:
-        List[str]: A list containing the user instruction(s).
+        str: The user instruction.
     """
     try:
         if step is not None:
             logger.info(f"Loading multi-step user instruction for workflow: {workflow}, step: {step}")
-            user_instruction = [load_file(os.path.join(config.DATA_DIR, f'templates/{workflow}/user_instruction/user_instruction_step_{step}.txt'))]
+            user_instruction = load_file(os.path.join(config.DATA_DIR, f'templates/{workflow}/user_instruction/user_instruction_step_{step}.txt'))
         else:
             logger.info(f"Loading single-step user instruction for workflow: {workflow}")
-            user_instruction = [load_file(os.path.join(config.DATA_DIR, f'templates/{workflow}/user_instruction.txt'))]
+            user_instruction = load_file(os.path.join(config.DATA_DIR, f'templates/{workflow}/user_instruction.txt'))
         logger.info("User instruction loaded successfully")
         return user_instruction
     except Exception as e:
