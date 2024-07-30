@@ -10,14 +10,12 @@ from vertexai.generative_models import Part
 from src.utils.io import load_binary_file
 from src.config.logging import logger
 from src.config.setup import config
-
-from src.utils.io import load_file
 from src.utils.io import save_json
-from typing import Optional 
 from typing import List
 from typing import Dict 
 from typing import Any 
 import json
+import time
 import os
 
 
@@ -144,9 +142,12 @@ def run(file_name: str):
         pdf_bytes = load_binary_file(file_path)
         pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
         output_path = os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt')
+        start_time = time.time()
         llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, output_path)
         convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'))
-        logger.info("Extraction process completed successfully")
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        logger.info(f"Extraction process completed successfully in {elapsed_time:.2f} seconds")
     except Exception as e:
         logger.error(f"Error in run process: {e}")
         raise  # Re-raise the exception after logging
