@@ -1,4 +1,5 @@
 from src.config.logging import logger 
+from typing import Generator
 from typing import Optional 
 from typing import List 
 from typing import Dict 
@@ -158,4 +159,25 @@ def convert_json_to_jsonl(input_file: str, output_file: str, workflow: str) -> N
         raise
     except Exception as e:
         logger.error(f"An unexpected error occurred: {e}")
+        raise
+
+
+def get_pdf_file_names(directory: str) -> Generator[str, None, None]:
+    """
+    Generator function that iterates through a list of PDF documents in a given directory
+    and yields file names without the .pdf extension.
+
+    :param directory: The directory containing PDF files.
+    :return: An iterator of file names without the .pdf extension.
+    :raises ValueError: If the provided directory is not valid.
+    """
+    try:
+        if not os.path.isdir(directory):
+            raise ValueError(f"Invalid directory: {directory}")
+
+        for file_name in os.listdir(directory):
+            if file_name.endswith('.pdf'):
+                yield os.path.splitext(file_name)[0]
+    except Exception as e:
+        logger.error(f"An error occurred while processing the directory {directory}: {e}")
         raise
