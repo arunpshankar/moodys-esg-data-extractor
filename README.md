@@ -42,7 +42,7 @@ export PYTHONPATH=$PYTHONPATH:.
 
 ## Data Organization 📂
 
-- **All PDF documents are under `./data/`**
+- **All PDF documents are under `./data/docs`**
 - **Ground truth expected extractions are under `./data/validated/expected`**
 
 ## Running Evaluations 🏃‍♂️
