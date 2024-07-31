@@ -1,0 +1,21 @@
+## High-Level Instructions:
+- The analysis should yield raw values for any source of energy consumed with their respective units.
+- Avoid performing any calculations; capture only the pure raw values as available.
+- Capture data for the most recent year only.
+- **Thousand Separators**: When encountering big numbers, remove any thousand separators (such as commas, periods, or spaces) and retain the decimal separator as it is.
+- **Examples**:
+  - "1,000,000.78" becomes "1000000.78"
+  - "1.000.000,78" becomes "1000000,78"
+  - "1 000 000.78" becomes "1000000.78"
+  - "8,505,686" becomes "8505686"
+  - "8.505.686" becomes "8505686"
+
+## What to Capture
+- Energy consumption metrics for the organization's own operations and supply chain.
+- Raw values for any source of energy consumed with their respective units.
+- Data for the most recent year only.
+
+## What to Avoid
+- Energy generation metrics.
+- Energy capacity metrics.
+- Emissions metrics (For example, data measured in `tonnes CO2e`)
