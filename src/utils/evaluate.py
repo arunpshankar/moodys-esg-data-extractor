@@ -30,9 +30,9 @@ def compare_json_objects(json1: Dict, json2: Dict) -> bool:
 
         logger.info(f"Extracted values - Code: {code1} vs {code2}, Value: {value1} vs {value2}, Year: {year1} vs {year2}, Unit: '{unit1}' vs '{unit2}'")
 
-        # Ideal - Compare on 4 dimensions
+        # Ideal - Compare against 4 dimensions
         # result = code1 == code2, value1 == value2, year1 == year2, unit1 == unit2 
-        result = code1 == code2, value1 == value2
+        result = code1 == code2, value1 == value2  
         logger.info(f"Comparison result: {result}")
         
         return result
