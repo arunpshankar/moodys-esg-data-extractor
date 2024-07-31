@@ -12,14 +12,6 @@
         "item": "Total energy consumption from renewable sources"
     },
     {
-        "code": "817",
-        "item": "Share of non-renewable energy consumption"
-    },
-    {
-        "code": "819",
-        "item": "Share of renewable energy consumption"
-    },
-    {
         "code": "1701",
         "item": "Total electricity use"
     },
