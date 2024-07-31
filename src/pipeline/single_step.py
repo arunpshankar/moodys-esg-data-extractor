@@ -105,7 +105,7 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
+def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str) -> None:
     """
     Extract information from a PDF using a generative model and save the output.
 
@@ -113,6 +113,9 @@ def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
         model (GenerativeModel): The generative model to use for extraction.
         pdf_parts (Part): The PDF parts to be processed.
         output_path (str): The path to save the extracted information.
+
+    Raises:
+        Exception: If any error occurs during the extraction process, it is logged and re-raised.
     """
     try:
         logger.info("Starting LLM extraction")
@@ -129,12 +132,15 @@ def llm_extract(model: GenerativeModel, pdf_parts: Part, output_path: str):
         raise  # Re-raise the exception after logging
 
 
-def run(file_name: str):
+def run(file_name: str) -> None:
     """
     Run the extraction process on a specified PDF file.
 
     Args:
         file_name (str): The name of the PDF file to process.
+
+    Raises:
+        Exception: If any error occurs during the process, it is logged and re-raised.
     """
     try:
         logger.info(f"Running extraction for file: {file_name}")
@@ -143,8 +149,13 @@ def run(file_name: str):
         pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
         output_path = os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt')
         start_time = time.time()
+        
+        # Run the LLM extraction
         llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, output_path)
+        
+        # Convert the output to JSONL format
         convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'), workflow='single_step')
+        
         end_time = time.time()
         elapsed_time = end_time - start_time
         logger.info(f"Extraction process completed successfully in {elapsed_time:.2f} seconds")
@@ -154,4 +165,5 @@ def run(file_name: str):
 
 
 if __name__ == '__main__':
-    run('84535104943034784')
+    file_name = '84535104943034784'
+    run(file_name)

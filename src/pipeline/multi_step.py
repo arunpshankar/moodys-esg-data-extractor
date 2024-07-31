@@ -362,8 +362,6 @@ def run(file_name: str) -> None:
         raise  # Re-raise the exception after logging
 
 
-
 if __name__ == '__main__':
     file_name = '84535104943034784'
     run(file_name)
-    
