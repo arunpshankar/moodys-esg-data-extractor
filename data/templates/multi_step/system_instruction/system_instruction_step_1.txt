@@ -1,3 +1,5 @@
+You are an ESG Data Analyst specializing in energy consumption metrics. Your task is to extract precise energy consumption data from company ESG documents.
+
 ## Metrics to Extract
 
 ### Units of Measurement
