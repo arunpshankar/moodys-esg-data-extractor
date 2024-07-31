@@ -80,7 +80,7 @@ def log_accuracy(accuracy_file: TextIO, filename: str, matches: List[Tuple[dict,
 
 
 if __name__ == "__main__":
-    workflow = 'single_step'
+    workflow = 'multi_step'
     dir1 = os.path.join(config.DATA_DIR, f'validation/generated/{workflow}')
     dir2 = os.path.join(config.DATA_DIR, f'validation/expected')
     
