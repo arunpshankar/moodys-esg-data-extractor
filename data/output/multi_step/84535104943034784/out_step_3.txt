@@ -2,233 +2,33 @@
     {
         "code": "429",
         "item": "Total energy consumption",
-        "page_number": 49,
-        "snippet": "17,130,94319,853,22215,824,37018,073,717",
+        "page_number": 50,
+        "snippet": "15,824,370",
         "unit": "kWh",
-        "value": 18073.717
+        "value": 15824370.0
     },
     {
         "code": "711",
         "item": "Total energy consumption from non-renewable sources",
-        "page_number": 49,
+        "page_number": 50,
         "snippet": "null",
         "unit": "null",
-        "value": 0
+        "value": -1
     },
     {
         "code": "432",
         "item": "Total energy consumption from renewable sources",
-        "page_number": 49,
-        "snippet": "12,0001,93014,35710,646",
+        "page_number": 50,
+        "snippet": "14,357",
         "unit": "kWh",
-        "value": 10646
-    },
-    {
-        "code": "817",
-        "item": "Share of non-renewable energy consumption",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "819",
-        "item": "Share of renewable energy consumption",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
+        "value": 14357.0
     },
     {
         "code": "1701",
         "item": "Total electricity use",
-        "page_number": 49,
-        "snippet": "17,130,94319,853,22215,824,37018,073,717",
-        "unit": "kWh",
-        "value": 18073.717
-    },
-    {
-        "code": "1702",
-        "item": "Electricity from renewable sources",
-        "page_number": 49,
-        "snippet": "12,0001,93014,35710,646",
-        "unit": "kWh",
-        "value": 10646
-    },
-    {
-        "code": "RE001",
-        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)",
-        "page_number": 49,
+        "page_number": 50,
         "snippet": "null",
         "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "RE002",
-        "item": "Bioenergy: Biomass",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "779",
-        "item": "Bioenergy: Landfill Gas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "780",
-        "item": "Bioenergy: Sewage Treatment Plant Gas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "781",
-        "item": "Bioenergy: Biogas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "RE003",
-        "item": "Bioenergy: Wood",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "RE004",
-        "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
-        "page_number": 24,
-        "snippet": "With energy saving as a big driver for carbon emissionreduction, we utilise solar photovoltaic system to generate\nrenewable electricity. In 2022, we extended the scope of\nsolar panel installation to Champion Tower's rooftop at\nThree Garden Road. Along with the existing 42 PV solar\npanel systems installed in ICBC Tower, 28 newly installed\nsolar panels can altogether generate approximately 14,300\nkWh electricity in 2022. Similarly, apart from the previous 6\nsolar panels installed in 2016 and 22 solar panels installed\nin 2021 on the rooftop of Langham Place Mall, 19 solar\npanels were installed on the rooftop of Langham Place\nOffice Tower in 2022, which have a combined output of a\ntotal of around 20,800 kWh of renewable energy.",
-        "unit": "kWh",
-        "value": 35157
-    },
-    {
-        "code": "RE005",
-        "item": "Direct Solar Energy: Solar Thermal",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "774",
-        "item": "Geothermal Energy",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "777",
-        "item": "Hydropower Energy",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "776",
-        "item": "Ocean Energy: Wave",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "776",
-        "item": "Ocean Energy: Tidal/Tide",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "776",
-        "item": "Ocean Energy: Ocean Thermal",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "772",
-        "item": "Wind Energy",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "RE015",
-        "item": "Nuclear Power: Uranium",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "775",
-        "item": "Ambient Energy",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "783",
-        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "787",
-        "item": "Natural Gas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "787",
-        "item": "City Gas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "787",
-        "item": "Town Gas",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "NRE005",
-        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
-    },
-    {
-        "code": "789",
-        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
-        "page_number": 49,
-        "snippet": "null",
-        "unit": "null",
-        "value": 0
+        "value": -1
     }
 ]

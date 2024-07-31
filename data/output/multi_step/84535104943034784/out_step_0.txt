@@ -1,7 +1,6 @@
 {
     "metadata": {
         "country": "Hong Kong",
-        "data_collector": "Auto",
         "data_sources": "Champion REIT's 2022 Sustainability Report",
         "fiscal_year_end": "31/12/2022",
         "geographical_scope": "Specific regions (Hong Kong and London)",
