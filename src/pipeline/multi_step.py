@@ -154,7 +154,7 @@ def run(file_name: str):
         step_2(file_name, config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_2.txt'))
         output_path = os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_3.txt')
         step_3(file_name, config.TEXT_GEN_MODEL_NAME, pdf_parts, output_path)
-        convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/multi_step/{file_name}.jsonl'))
+        convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/multi_step/{file_name}.jsonl'), workflow='multi_step')
         end_time = time.time()
         elapsed_time = end_time - start_time
         logger.info(f"Extraction process completed successfully in {elapsed_time:.2f} seconds")

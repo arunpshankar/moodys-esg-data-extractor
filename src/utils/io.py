@@ -76,13 +76,14 @@ def save_json(data: Any, file_path: str) -> bool:
     return False
 
 
-def convert_json_to_jsonl(input_file: str, output_file: str) -> None:
+def convert_json_to_jsonl(input_file: str, output_file: str, workflow: str) -> None:
     """
-    Convert a JSON file to a JSONL file.
+    Convert a JSON file to a JSONL file with branching based on the workflow.
 
     Args:
         input_file (str): The path to the input JSON file.
         output_file (str): The path to the output JSONL file.
+        workflow (str): The workflow type, either 'single_step' or other.
     """
     try:
         logger.info(f"Reading the input JSON file: {input_file}")
@@ -95,9 +96,14 @@ def convert_json_to_jsonl(input_file: str, output_file: str) -> None:
 
         logger.info(f"Writing data to the output JSONL file: {output_file}")
         with open(output_file, 'w', encoding='utf-8') as f:
-            for item in data["metrics"]:
-                json_line = json.dumps(item)
-                f.write(json_line + '\n')
+            if workflow == 'single_step':
+                for item in data["metrics"]:
+                    json_line = json.dumps(item)
+                    f.write(json_line + '\n')
+            else:
+                for item in data:
+                    json_line = json.dumps(item)
+                    f.write(json_line + '\n')
         logger.info(f"Successfully converted JSON to JSONL: {output_file}")
 
     except FileNotFoundError:

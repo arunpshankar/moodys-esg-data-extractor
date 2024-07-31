@@ -144,7 +144,7 @@ def run(file_name: str):
         output_path = os.path.join(OUTPUT_DIR, f'single_step/{file_name}/out.txt')
         start_time = time.time()
         llm_extract(config.TEXT_GEN_MODEL_NAME, pdf_parts, output_path)
-        convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'))
+        convert_json_to_jsonl(output_path, os.path.join(VALIDATION_DIR, f'generated/single_step/{file_name}.jsonl'), workflow='single_step')
         end_time = time.time()
         elapsed_time = end_time - start_time
         logger.info(f"Extraction process completed successfully in {elapsed_time:.2f} seconds")
