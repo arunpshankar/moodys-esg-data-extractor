@@ -1,0 +1,53 @@
+{
+    "type": "object",
+    "properties": {
+      "metadata": {
+        "type": "object",
+        "properties": {
+          "data_sources": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9 ']+$",
+            "maxLength": 100
+          },
+          "data_collector": {
+            "type": "string",
+            "pattern": "^[A-Za-z ]+$",
+            "maxLength": 50
+          },
+          "fiscal_year_end": {
+            "type": "string",
+            "pattern": "^[0-9]{2}/[0-9]{2}/[0-9]{4}$"
+          },
+          "geographical_scope": {
+            "type": "string",
+            "pattern": "^[A-Za-z]+$",
+            "maxLength": 20
+          },
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Za-z]+$",
+            "maxLength": 50
+          },
+          "organization_name": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9 .]+$",
+            "maxLength": 100
+          },
+          "year": {
+            "type": "string",
+            "pattern": "^[0-9]{4}$"
+          }
+        },
+        "required": [
+          "data_sources",
+          "data_collector",
+          "fiscal_year_end",
+          "geographical_scope",
+          "country",
+          "organization_name",
+          "year"
+        ]
+      }
+    },
+    "required": ["metadata"]
+  }
