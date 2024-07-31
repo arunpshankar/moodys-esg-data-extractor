@@ -1,5 +1,7 @@
 from src.config.logging import logger 
 from typing import Optional 
+from typing import List 
+from typing import Dict 
 from typing import Any 
 import json 
 import os 
@@ -74,6 +76,42 @@ def save_json(data: Any, file_path: str) -> bool:
     except IOError as e:
         logger.error(f"Error saving JSON data to {file_path}: {e}")
     return False
+
+
+def load_jsonl(file_path: str) -> List[Dict]:
+    """
+    Reads a JSONL (JSON Lines) file and returns a list of dictionaries.
+
+    Each line in the file should be a valid JSON object.
+
+    Parameters:
+    file_path (str): The path to the JSONL file.
+
+    Returns:
+    List[Dict]: A list of dictionaries, where each dictionary represents a JSON object from the file.
+    
+    Raises:
+    FileNotFoundError: If the file at the specified path does not exist.
+    JSONDecodeError: If a line in the file is not a valid JSON object.
+    """
+    json_list = []
+    
+    try:
+        with open(file_path, 'r') as file:
+            for line in file:
+                try:
+                    json_obj = json.loads(line)
+                    json_list.append(json_obj)
+                except json.JSONDecodeError as e:
+                    logger.error(f"Error decoding JSON from line: {line.strip()} - {e}")
+    except FileNotFoundError as e:
+        logger.error(f"File not found: {file_path} - {e}")
+        raise
+    except Exception as e:
+        logger.error(f"An unexpected error occurred while reading the file: {file_path} - {e}")
+        raise
+    
+    return json_list
 
 
 def convert_json_to_jsonl(input_file: str, output_file: str, workflow: str) -> None:
