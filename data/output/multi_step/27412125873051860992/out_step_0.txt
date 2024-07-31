@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Italy",
+        "data_sources": "Unipol Gruppo's 2022 Integrated Consolidated Financial Statements",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Unipol Gruppo SpA",
+        "year": "2022"
+    }
+}
