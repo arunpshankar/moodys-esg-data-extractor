@@ -105,8 +105,14 @@ def generate_response(model: GenerativeModel, contents: List[Part], response_sch
         raise  # Re-raise the exception after logging
 
 
-def step_0():
-    pass
+def step_0(model: GenerativeModel, pdf_parts: Part, output_path: str):
+    system_instruction = load_system_instruction(workflow='multi_step', step=0)
+    model = GenerativeModel(config.TEXT_GEN_MODEL_NAME, system_instruction=system_instruction)
+    user_instruction = load_user_instruction(workflow='multi_step', step=0)
+    contents = [pdf_parts, user_instruction]
+    response_schema = load_response_schema(workflow='multi_step', step=0)
+    output_json = generate_response(model, contents, response_schema)
+    save_json(output_json, output_path)
 
 
 def step_1(model: GenerativeModel, pdf_parts: Part, output_path: str):
@@ -150,6 +156,7 @@ def run(file_name: str):
         pdf_bytes = load_binary_file(file_path)
         pdf_parts = Part.from_data(data=pdf_bytes, mime_type='application/pdf')
         start_time = time.time()
+        step_0(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_0.txt'))
         step_1(config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_1.txt'))
         step_2(file_name, config.TEXT_GEN_MODEL_NAME, pdf_parts, os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_2.txt'))
         output_path = os.path.join(OUTPUT_DIR, f'multi_step/{file_name}/out_step_3.txt')
