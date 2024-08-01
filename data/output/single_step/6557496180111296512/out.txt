@@ -45,10 +45,46 @@
             "value": "189794"
         },
         {
+            "code": "789",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total diesel consumption.",
+            "item": "Fuels: Diesel",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Diesel 117,962 117,962",
+            "unit": "kWh",
+            "value": "117962"
+        },
+        {
+            "code": "787",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total gas consumption.",
+            "item": "Natural Gas",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Gas 142,066 1,135,890 1,277,956",
+            "unit": "kWh",
+            "value": "1277956"
+        },
+        {
+            "code": "787",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total propane consumption.",
+            "item": "Town Gas",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Propane 376,693 376,693",
+            "unit": "kWh",
+            "value": "376693"
+        },
+        {
             "code": "1701",
             "consumption_type": "Operational Consumption",
             "flag": "Full",
-            "flag_reasoning": "Data represents total electricity consumption from renewable and non-renewable sources.",
+            "flag_reasoning": "Data represents total electricity consumption.",
             "item": "Total electricity use",
             "page_number": 67,
             "scope": "Global",
@@ -60,7 +96,7 @@
             "code": "1702",
             "consumption_type": "Operational Consumption",
             "flag": "Full",
-            "flag_reasoning": "Data represents total electricity consumption from renewable sources.",
+            "flag_reasoning": "Data represents total renewable electricity consumption.",
             "item": "Electricity from renewable sources",
             "page_number": 67,
             "scope": "Global",
@@ -79,42 +115,6 @@
             "snippet": "Consumption of self-generated non-fuel renewable energy (solar) 125,669 125,669",
             "unit": "kWh",
             "value": "125669"
-        },
-        {
-            "code": "783",
-            "consumption_type": "Operational Consumption",
-            "flag": "Full",
-            "flag_reasoning": "Data represents total coal consumption.",
-            "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
-            "page_number": 67,
-            "scope": "Global",
-            "snippet": "Total non-renewable fuels consumption (kWh) 142,066 1,630,545 1,772,612",
-            "unit": "kWh",
-            "value": "1772612"
-        },
-        {
-            "code": "787",
-            "consumption_type": "Operational Consumption",
-            "flag": "Full",
-            "flag_reasoning": "Data represents total natural gas consumption.",
-            "item": "Natural Gas",
-            "page_number": 67,
-            "scope": "Global",
-            "snippet": "Gas 142,066 1,135,890 1,277,956",
-            "unit": "kWh",
-            "value": "1277956"
-        },
-        {
-            "code": "789",
-            "consumption_type": "Operational Consumption",
-            "flag": "Full",
-            "flag_reasoning": "Data represents total diesel consumption.",
-            "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
-            "page_number": 67,
-            "scope": "Global",
-            "snippet": "Diesel 117,962 117,962",
-            "unit": "kWh",
-            "value": "117962"
         }
     ],
     "year": 2022

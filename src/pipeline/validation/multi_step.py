@@ -2,31 +2,73 @@ from src.pipeline.multi_step import run as multi_step_run
 from src.utils.io import get_pdf_file_names
 from src.config.logging import logger
 from src.config.setup import config
+import asyncio
 import os
 
 
-def run(directory: str) -> None:
+async def process_file(file_name: str) -> None:
     """
-    Run the multi-step data extraction process on all PDF files in the specified directory.
+    Process a single PDF file asynchronously using the multi-step pipeline.
+
+    Args:
+        file_name (str): The name of the PDF file to process.
+    """
+    try:
+        logger.info(f"Processing file: {file_name}")
+        # Wrap the synchronous function in a coroutine
+        await asyncio.to_thread(multi_step_run, file_name)
+        logger.info(f"Finished processing file: {file_name}")
+        print('-' * 200)
+    except Exception as e:
+        logger.error(f"Error processing file {file_name}: {e}")
+
+
+async def run(directory: str, concurrency: int = 5) -> None:
+    """
+    Run the multi-step data extraction process on PDF files in the specified directory concurrently.
 
     Args:
         directory (str): The directory path where PDF files are located.
+        concurrency (int): The number of files to process concurrently. Defaults to 5.
     """
     try:
-        for file_name in get_pdf_file_names(directory):
-            try:
-                logger.info(f"Processing file: {file_name}")
-                multi_step_run(file_name)
-                print('-' * 200)
-            except Exception as e:
-                logger.error(f"Error processing file {file_name}: {e}")
+        # Convert generator to list
+        pdf_files = list(get_pdf_file_names(directory))
+        logger.info(f"Found {len(pdf_files)} PDF files in the directory.")
+
+        if not pdf_files:
+            logger.warning("No PDF files found in the specified directory.")
+            return
+
+        # Create a semaphore to limit concurrency
+        semaphore = asyncio.Semaphore(concurrency)
+
+        async def process_with_semaphore(file_name: str) -> None:
+            async with semaphore:
+                await process_file(file_name)
+
+        # Create tasks for each file
+        tasks = [asyncio.create_task(process_with_semaphore(file)) for file in pdf_files]
+
+        # Wait for all tasks to complete
+        await asyncio.gather(*tasks)
+
     except Exception as e:
-        logger.error(f"Error retrieving PDF file names from directory {directory}: {e}")
+        logger.error(f"Error retrieving or processing PDF files from directory {directory}: {e}")
+
+
+async def main() -> None:
+    """
+    Main entry point for the asynchronous multi-step PDF processing script.
+    """
+    try:
+        directory = os.path.join(config.DATA_DIR, 'docs/')
+        logger.info(f"Starting parallel multi-step PDF processing in directory: {directory}")
+        await run(directory)
+        logger.info("Multi-step PDF processing completed successfully.")
+    except Exception as e:
+        logger.critical(f"Critical failure in main execution: {e}")
 
 
 if __name__ == '__main__':
-    try:
-        directory = os.path.join(config.DATA_DIR, 'docs/')
-        run(directory)
-    except Exception as e:
-        logger.critical(f"Critical failure in main execution: {e}")
+    asyncio.run(main())

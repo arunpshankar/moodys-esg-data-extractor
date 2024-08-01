@@ -1,8 +1,8 @@
 {
     "metadata": {
         "country": "Japan",
-        "data_collector": "Greenly AI",
-        "data_sources": "NOK CORPORATION\nESG\nData Book\n2022",
+        "data_collector": "Green AI",
+        "data_sources": "NOK CORPORATION ESG Data Book 2022",
         "fiscal_year_end": "31/03/2022",
         "geographical_scope": "Global",
         "organization_name": "NOK CORPORATION"
@@ -12,11 +12,11 @@
             "code": "429",
             "consumption_type": "Operational Consumption",
             "flag": "Full",
-            "flag_reasoning": "Covers total energy consumption.",
+            "flag_reasoning": "Covers the entire NOK Group.",
             "item": "Total energy consumption",
             "page_number": 2,
             "scope": "Global",
-            "snippet": "Total energy consumptionConsolidatedTJ5,1024,7105,277",
+            "snippet": "Total energy consumption\nConsolidated\nTJ\n5,102\n4,710\n5,277",
             "unit": "TJ",
             "value": "5277"
         },
@@ -28,21 +28,9 @@
             "item": "Total energy consumption",
             "page_number": 2,
             "scope": "Global",
-            "snippet": "Total energy consumptionNon-consolidatedTJ1,4701,3951,495",
+            "snippet": "Total energy consumption\nNon-consolidated\nTJ\n1,470\n1,395\n1,495",
             "unit": "TJ",
             "value": "1495"
-        },
-        {
-            "code": "1701",
-            "consumption_type": "Operational Consumption",
-            "flag": "Full",
-            "flag_reasoning": "Covers total electricity consumption.",
-            "item": "Total electricity use",
-            "page_number": 2,
-            "scope": "Global",
-            "snippet": "ElectricityConsolidatedTJ4,3934,0824,602",
-            "unit": "TJ",
-            "value": "4602"
         },
         {
             "code": "1701",
@@ -52,9 +40,21 @@
             "item": "Total electricity use",
             "page_number": 2,
             "scope": "Global",
-            "snippet": "ElectricityNon-consolidatedTJ1,3241,2631,352",
+            "snippet": "Electricity\nNon-consolidated\nTJ\n1,324\n1,263\n1,352",
             "unit": "TJ",
             "value": "1352"
+        },
+        {
+            "code": "1701",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Covers the entire NOK Group.",
+            "item": "Total electricity use",
+            "page_number": 2,
+            "scope": "Global",
+            "snippet": "Electricity\nConsolidated\nTJ\n4,393\n4,082\n4,602",
+            "unit": "TJ",
+            "value": "4602"
         }
     ],
     "year": 2021

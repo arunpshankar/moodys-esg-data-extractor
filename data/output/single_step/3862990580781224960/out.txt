@@ -64,7 +64,7 @@
             "item": "Bioenergy: Biomass",
             "page_number": 127,
             "scope": "Global",
-            "snippet": "Total fuel MWh consumed by the organization\n7,724,612.68",
+            "snippet": "Sustainable biomass\nHeating value\nLHV\nTotal fuel MWh consumed by the organization\n7,724,612.68",
             "unit": "MWh",
             "value": "7724612.68"
         },
@@ -74,11 +74,12 @@
             "flag": "Full",
             "flag_reasoning": "Data represents total wood consumption.",
             "item": "Bioenergy: Wood",
-            "page_number": 127,
+            "page_number": 4,
             "scope": "Global",
-            "snippet": "Sustainable biomass\nHeating value\nLHV\nTotal fuel MWh consumed by the organization\n7,724,612.68",
-            "unit": "MWh",
-            "value": "7724612.68"
+            "snippet": "56% of the wood that goes into the production process comes from Klabin's own forests,\nthe other 44% comes from partnerships and producers in the regions where Klabin has\nforestry operations.",
+            "unit": "t",
+            "value": "12321.28",
+            "relevant_information": "Total Quantity of Wood (thousand t / year)"
         },
         {
             "code": "NRE005",
@@ -88,7 +89,7 @@
             "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
             "page_number": 129,
             "scope": "Global",
-            "snippet": "Total fuel MWh consumed by the organization\n1,151,622.79",
+            "snippet": "Oil\nHeating value\nLHV\nTotal fuel MWh consumed by the organization\n1,151,622.79",
             "unit": "MWh",
             "value": "1151622.79"
         },
@@ -96,11 +97,11 @@
             "code": "787",
             "consumption_type": "Operational Consumption",
             "flag": "Full",
-            "flag_reasoning": "Data represents total natural gas consumption.",
+            "flag_reasoning": "Data represents total gas consumption.",
             "item": "Natural Gas",
             "page_number": 129,
             "scope": "Global",
-            "snippet": "Total fuel MWh consumed by the organization\n557,945.42",
+            "snippet": "Gas\nHeating value\nLHV\nTotal fuel MWh consumed by the organization\n557,945.42",
             "unit": "MWh",
             "value": "557945.42"
         }
