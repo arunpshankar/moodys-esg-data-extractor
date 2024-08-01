@@ -1,0 +1,97 @@
+{
+    "metadata": {
+        "country": "UK",
+        "data_collector": "HighQ AI",
+        "data_sources": "Sustainability Supplement and ESG Addendum 2022",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "UK",
+        "organization_name": "Taylor Wimpey"
+    },
+    "metrics": [
+        {
+            "code": "429",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from sites and offices.",
+            "item": "Total energy consumption",
+            "page_number": 30,
+            "scope": "Country-Specific",
+            "snippet": "Operational energy use (fuel and electricity consumption from sites and offices)UKMWh870139499285442101352",
+            "unit": "MWh",
+            "value": "87013"
+        },
+        {
+            "code": "711",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total non-renewable energy consumption.",
+            "item": "Total energy consumption from non-renewable sources",
+            "page_number": 31,
+            "scope": "Global",
+            "snippet": "Total non-renewable energy consumptionGroupMWh72252773427295692838",
+            "unit": "MWh",
+            "value": "72252"
+        },
+        {
+            "code": "RE004",
+            "consumption_type": "Operational Consumption",
+            "flag": "Partial",
+            "flag_reasoning": "Data is limited to homes with PV panels.",
+            "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+            "page_number": 28,
+            "scope": "Country-Specific",
+            "snippet": "Homes with on-site renewables (eg PV panels)UK%17161499",
+            "unit": "Percentage",
+            "value": "17"
+        },
+        {
+            "code": "783",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data is sourced from the 'Brown electricity' row, which represents non-renewable electricity.",
+            "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+            "page_number": 31,
+            "scope": "Global",
+            "snippet": "Brown electricityGroupMWh66197199957114563",
+            "unit": "MWh",
+            "value": "6619"
+        },
+        {
+            "code": "787",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data is sourced from the 'Natural gas' row.",
+            "item": "Natural Gas",
+            "page_number": 31,
+            "scope": "Country-Specific",
+            "snippet": "Natural gasUKMWh24428363572970733593",
+            "unit": "MWh",
+            "value": "24428"
+        },
+        {
+            "code": "NRE005",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data is sourced from the 'Gas oil and diesel' row.",
+            "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+            "page_number": 31,
+            "scope": "Country-Specific",
+            "snippet": "Gas oil and dieselUKMWh40400328063294943647",
+            "unit": "MWh",
+            "value": "40400"
+        },
+        {
+            "code": "789",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data covers Butane, LPG, and Propane.",
+            "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+            "page_number": 31,
+            "scope": "Country-Specific",
+            "snippet": "ButaneUKMWh276435340412Gas oil and dieselUKMWh40400328063294943647LPGUKMWh316129110PropaneUKMWh370483351497",
+            "unit": "MWh",
+            "value": "41007"
+        }
+    ],
+    "year": 2022
+}

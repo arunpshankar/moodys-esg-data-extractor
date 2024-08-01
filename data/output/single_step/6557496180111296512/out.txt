@@ -1,0 +1,121 @@
+{
+    "metadata": {
+        "country": "Singapore",
+        "data_collector": "HighQ AI",
+        "data_sources": "XP Power Annual Report & Accounts for the year ended 31 December 2022",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "XP Power"
+    },
+    "metrics": [
+        {
+            "code": "429",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from renewable and non-renewable sources.",
+            "item": "Total energy consumption",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Total energy consumption (kWh) 308,839 13,399,797 13,708,636",
+            "unit": "kWh",
+            "value": "13708636"
+        },
+        {
+            "code": "711",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from non-renewable sources.",
+            "item": "Total energy consumption from non-renewable sources",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Total non-renewable energy consumption (kWh) 278,723 13,240,119 13,518,842",
+            "unit": "kWh",
+            "value": "13518842"
+        },
+        {
+            "code": "432",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from renewable sources.",
+            "item": "Total energy consumption from renewable sources",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Total renewable energy consumption (kWh) 30,116 159,678 189,794",
+            "unit": "kWh",
+            "value": "189794"
+        },
+        {
+            "code": "1701",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total electricity consumption from renewable and non-renewable sources.",
+            "item": "Total electricity use",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Total electricity consumption (kWh) 166,773 11,696,986 11,863,759",
+            "unit": "kWh",
+            "value": "11863759"
+        },
+        {
+            "code": "1702",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total electricity consumption from renewable sources.",
+            "item": "Electricity from renewable sources",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Consumption of purchased or acquired electricity renewable 30,116 34,009 64,125",
+            "unit": "kWh",
+            "value": "64125"
+        },
+        {
+            "code": "RE004",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total solar energy consumption.",
+            "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Consumption of self-generated non-fuel renewable energy (solar) 125,669 125,669",
+            "unit": "kWh",
+            "value": "125669"
+        },
+        {
+            "code": "783",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total coal consumption.",
+            "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Total non-renewable fuels consumption (kWh) 142,066 1,630,545 1,772,612",
+            "unit": "kWh",
+            "value": "1772612"
+        },
+        {
+            "code": "787",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total natural gas consumption.",
+            "item": "Natural Gas",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Gas 142,066 1,135,890 1,277,956",
+            "unit": "kWh",
+            "value": "1277956"
+        },
+        {
+            "code": "789",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total diesel consumption.",
+            "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+            "page_number": 67,
+            "scope": "Global",
+            "snippet": "Diesel 117,962 117,962",
+            "unit": "kWh",
+            "value": "117962"
+        }
+    ],
+    "year": 2022
+}

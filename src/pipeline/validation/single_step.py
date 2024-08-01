@@ -17,6 +17,7 @@ def run(directory: str) -> None:
             try:
                 logger.info(f"Processing file: {file_name}")
                 single_step_run(file_name)
+                print('-' * 200)
             except Exception as e:
                 logger.error(f"Error processing file {file_name}: {e}")
     except Exception as e:

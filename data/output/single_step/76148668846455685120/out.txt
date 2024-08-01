@@ -1,0 +1,50 @@
+{
+    "metadata": {
+        "country": "Japan",
+        "data_collector": "Greenly AI",
+        "data_sources": "Fuji Oil Group Sustainability Report 2022 \"ESG Data Book\"",
+        "fiscal_year_end": "March 31",
+        "geographical_scope": "Global",
+        "organization_name": "Fuji Oil Group"
+    },
+    "metrics": [
+        {
+            "code": "429",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Covers the whole company",
+            "item": "Total energy consumption",
+            "page_number": 1,
+            "scope": "Global",
+            "snippet": "Total energy consumption\nFuji Oil Group\nFrom FY2021 onward: April 1 of\nthe relevant year to March 31 of\nthe following year\nYear\n2017\n2018\n2019\n2020\n2021\nUnit\nGRI Standards\nReference information (standards, methods, prerequisites, etc.)\n8,469,392 8,190,484 9,194,154 8,797,343 8,678,068\nGJ\n302-1\nSources of conversion factors: Greenhouse gas emissions calculation and\nreporting manual (Ministry of the Environment of Japan), US EPA",
+            "unit": "GJ",
+            "value": "8678068",
+            "relevant_information": "Energy types are:\nFuel (e.g. town gas, natural gas, LPG), electricity, steam\n\u2022 Limited to energy consumption within the organization"
+        },
+        {
+            "code": "711",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Covers the whole company",
+            "item": "Total energy consumption from non-renewable sources",
+            "page_number": 1,
+            "scope": "Global",
+            "snippet": "Total non-renewable energy\nconsumption\nFuji Oil Group\nFrom FY2021 onward: April 1 of\nthe relevant year to March 31 of\nthe following year\nYear\n2017\n2018\n2019\n2020\n2021\nUnit\nGRI Standards\nReference information (standards, methods, prerequisites, etc.)\n8,469,392\n8,150,453 9,008,335 8,520,155 8,330,666\nGJ\n302-1",
+            "unit": "GJ",
+            "value": "8330666"
+        },
+        {
+            "code": "432",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Covers the whole company",
+            "item": "Total energy consumption from renewable sources",
+            "page_number": 1,
+            "scope": "Global",
+            "snippet": "Breakdown by energy\nsource\nTotal renewable energy\nconsumption\nData collection period\nFrom FY2021 onward: April 1 of\nthe relevant year to March 31 of\nthe following year\nYear\n2017\n2018\n2019\n2020\n2021\nUnit\nGRI Standards\nReference information (standards, methods, prerequisites, etc.)\n40,031\n185,819\n277,188\n347,402\nGJ\n302-1\nPrerequisites: Of renewable energy sources, solar power and biomass\ngeneration are calculated by converting generated electricity and steam\ninto calorific value [GJ].",
+            "unit": "GJ",
+            "value": "347402"
+        }
+    ],
+    "year": 2021
+}

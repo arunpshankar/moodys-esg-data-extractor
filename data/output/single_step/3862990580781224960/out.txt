@@ -1,0 +1,109 @@
+{
+    "metadata": {
+        "country": "Brazil",
+        "data_collector": "Research Analyst XYZ",
+        "data_sources": "Klabin S/A CDP Climate Change Questionnaire 2023",
+        "fiscal_year_end": "December 31, 2022",
+        "geographical_scope": "Global",
+        "organization_name": "Klabin S/A"
+    },
+    "metrics": [
+        {
+            "code": "429",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from renewable and non-renewable sources.",
+            "item": "Total energy consumption",
+            "page_number": 126,
+            "scope": "Global",
+            "snippet": "Total energy\nconsumption 21,866,613.01 1,886,710.84 23,753,323.84",
+            "unit": "MWh",
+            "value": "23753323.84"
+        },
+        {
+            "code": "711",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from non-renewable sources.",
+            "item": "Total energy consumption from non-renewable sources",
+            "page_number": 126,
+            "scope": "Global",
+            "snippet": "Total energy\nconsumption 21,866,613.01 1,886,710.84 23,753,323.84",
+            "unit": "MWh",
+            "value": "21866613.01"
+        },
+        {
+            "code": "432",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total energy consumption from renewable sources.",
+            "item": "Total energy consumption from renewable sources",
+            "page_number": 126,
+            "scope": "Global",
+            "snippet": "Total energy\nconsumption 21,866,613.01 1,886,710.84 23,753,323.84",
+            "unit": "MWh",
+            "value": "1886710.84"
+        },
+        {
+            "code": "1701",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total electricity consumption from renewable and non-renewable sources.",
+            "item": "Total electricity use",
+            "page_number": 126,
+            "scope": "Global",
+            "snippet": "Consumption of\npurchased or acquired\nelectricity 3,100,188.42 1,825.91 3,102,014.32",
+            "unit": "MWh",
+            "value": "3102014.32"
+        },
+        {
+            "code": "RE002",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total biomass consumption.",
+            "item": "Bioenergy: Biomass",
+            "page_number": 127,
+            "scope": "Global",
+            "snippet": "Total fuel MWh consumed by the organization\n7,724,612.68",
+            "unit": "MWh",
+            "value": "7724612.68"
+        },
+        {
+            "code": "RE003",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total wood consumption.",
+            "item": "Bioenergy: Wood",
+            "page_number": 127,
+            "scope": "Global",
+            "snippet": "Sustainable biomass\nHeating value\nLHV\nTotal fuel MWh consumed by the organization\n7,724,612.68",
+            "unit": "MWh",
+            "value": "7724612.68"
+        },
+        {
+            "code": "NRE005",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total oil consumption.",
+            "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+            "page_number": 129,
+            "scope": "Global",
+            "snippet": "Total fuel MWh consumed by the organization\n1,151,622.79",
+            "unit": "MWh",
+            "value": "1151622.79"
+        },
+        {
+            "code": "787",
+            "consumption_type": "Operational Consumption",
+            "flag": "Full",
+            "flag_reasoning": "Data represents total natural gas consumption.",
+            "item": "Natural Gas",
+            "page_number": 129,
+            "scope": "Global",
+            "snippet": "Total fuel MWh consumed by the organization\n557,945.42",
+            "unit": "MWh",
+            "value": "557945.42"
+        }
+    ],
+    "year": 2022
+}

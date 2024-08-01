@@ -1,0 +1,12 @@
+{
+    "metadata": {
+        "country": "Italy",
+        "data_collector": "HighQ AI",
+        "data_sources": "Integrated Consolidated Financial Statements 2022",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Unipol Gruppo"
+    },
+    "metrics": [],
+    "year": 2022
+}
