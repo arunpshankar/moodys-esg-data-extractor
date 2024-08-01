@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "China",
+        "data_sources": "KE Holdings Inc.'s 2022 Environmental, Social and Governance (ESG) Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "KE Holdings Inc.",
+        "year": "2022"
+    }
+}

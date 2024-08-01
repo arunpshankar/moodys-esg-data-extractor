@@ -1,0 +1,54 @@
+[
+    {
+        "code": "429",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total energy input for NOK in FY 2021, covering all operations.",
+        "item": "Total energy consumption",
+        "page_number": 31,
+        "scope": "Global",
+        "snippet": "Total energy input\n1,495\nt",
+        "unit": "TJ",
+        "value": 1495,
+        "year": 2021
+    },
+    {
+        "code": "711",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total energy consumption from non-renewable sources for NOK in FY 2021, covering all operations.",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 31,
+        "scope": "Global",
+        "snippet": "Gasoline\n4\nt\nKerosene\n3\nt\nHeavy Oil A\n37\nt\nLight Oil\n2\nt\nLiquefied Petroleum Gas (LPG)\n2\nt\nCity Gas\n28\nt",
+        "unit": "TJ",
+        "value": 106,
+        "year": 2021
+    },
+    {
+        "code": "432",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total energy consumption from renewable sources for NOK in FY 2021, covering all operations.",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 31,
+        "scope": "Global",
+        "snippet": "Electric Power\n1,352\nt",
+        "unit": "TJ",
+        "value": 1352,
+        "year": 2021
+    },
+    {
+        "code": "1701",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total electricity use for NOK in FY 2021, covering all operations.",
+        "item": "Total electricity use",
+        "page_number": 31,
+        "scope": "Global",
+        "snippet": "Electric Power\n1,352\nt",
+        "unit": "TJ",
+        "value": 1352,
+        "year": 2021
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Denmark",
+        "data_sources": "Coloplast 2021/2022 Sustainability Report",
+        "fiscal_year_end": "30/09/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Coloplast Group",
+        "year": "2022"
+    }
+}

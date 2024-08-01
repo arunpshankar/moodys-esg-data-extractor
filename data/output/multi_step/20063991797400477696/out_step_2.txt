@@ -1,0 +1,34 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 31,
+        "snippet": "Total energy input1,495TJ",
+        "unit": "TJ",
+        "value": 1495
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 31,
+        "snippet": "Gasoline4TJ\nKerosene3TJ\nHeavy Oil A37TJ\nLight Oil2TJ\nLiquefied Petroleum Gas (LPG)2TJ\nCity Gas28TJ",
+        "unit": "TJ",
+        "value": 106
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 31,
+        "snippet": "Electric Power1,352TJ",
+        "unit": "TJ",
+        "value": 1352
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use",
+        "page_number": 31,
+        "snippet": "Electric Power1,352TJ",
+        "unit": "TJ",
+        "value": 1352
+    }
+]

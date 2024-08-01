@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Singapore",
+        "data_sources": "XP Power Annual Report & Accounts 2022",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "XP Power Limited",
+        "year": "2022"
+    }
+}

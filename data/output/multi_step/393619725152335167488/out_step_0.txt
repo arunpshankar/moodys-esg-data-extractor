@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "USA",
+        "data_sources": "Company's 2022 ESG Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Otis Worldwide Corporation",
+        "year": "2022"
+    }
+}

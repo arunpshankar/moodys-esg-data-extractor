@@ -1,0 +1,218 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 90.0,
+        "snippet": "Energy consumption\nMWh\n55288\n57373\n51688",
+        "unit": "MWh",
+        "value": 55288.0
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 90.0,
+        "snippet": "\u203a Non-renewable\n%\n62",
+        "unit": "null",
+        "value": 62.0
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 90.0,
+        "snippet": "\u203a Renewable\n%\n38",
+        "unit": "null",
+        "value": 38.0
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use",
+        "page_number": 90.0,
+        "snippet": "\u203a Purchased or acquired electricity\nMWh\n41443",
+        "unit": "MWh",
+        "value": 41443.0
+    },
+    {
+        "code": "1702",
+        "item": "Electricity from renewable sources",
+        "page_number": 90.0,
+        "snippet": "Renewable\nMWh\n20400",
+        "unit": "MWh",
+        "value": 20400.0
+    },
+    {
+        "code": "RE001",
+        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "RE002",
+        "item": "Bioenergy: Biomass",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "779",
+        "item": "Bioenergy: Landfill Gas",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "780",
+        "item": "Bioenergy: Sewage Treatment Plant Gas",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "781",
+        "item": "Bioenergy: Biogas",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "RE003",
+        "item": "Bioenergy: Wood",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "RE004",
+        "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "RE005",
+        "item": "Direct Solar Energy: Solar Thermal",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "774",
+        "item": "Geothermal Energy",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "777",
+        "item": "Hydropower Energy",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Wave",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Tidal/Tide",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Ocean Thermal",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "772",
+        "item": "Wind Energy",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "RE015",
+        "item": "Nuclear Power: Uranium",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "775",
+        "item": "Ambient Energy",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "783",
+        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+        "page_number": 90.0,
+        "snippet": "\u203a Biofuel\nMWh\n1.3",
+        "unit": "MWh",
+        "value": 1.3
+    },
+    {
+        "code": "787",
+        "item": "Natural Gas",
+        "page_number": 90.0,
+        "snippet": "\u203a Natural Gas\nMWh\n6768",
+        "unit": "MWh",
+        "value": 6768.0
+    },
+    {
+        "code": "787",
+        "item": "City Gas",
+        "page_number": 90.0,
+        "snippet": "\u203a Natural Gas\nMWh\n6768",
+        "unit": "MWh",
+        "value": 6768.0
+    },
+    {
+        "code": "787",
+        "item": "Town Gas",
+        "page_number": 90.0,
+        "snippet": "\u203a Natural Gas\nMWh\n6768",
+        "unit": "MWh",
+        "value": 6768.0
+    },
+    {
+        "code": "NRE005",
+        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+        "page_number": 90.0,
+        "snippet": "\u203a Diesel\nMWh\n374",
+        "unit": "MWh",
+        "value": 374.0
+    },
+    {
+        "code": "789",
+        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+        "page_number": 90.0,
+        "snippet": "\u203a Diesel\nMWh\n374",
+        "unit": "MWh",
+        "value": 374.0
+    }
+]

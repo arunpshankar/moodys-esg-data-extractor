@@ -1,0 +1,118 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption"
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources"
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources"
+    },
+    {
+        "code": "817",
+        "item": "Share of non-renewable energy consumption"
+    },
+    {
+        "code": "819",
+        "item": "Share of renewable energy consumption"
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use"
+    },
+    {
+        "code": "1702",
+        "item": "Electricity from renewable sources"
+    },
+    {
+        "code": "RE001",
+        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)"
+    },
+    {
+        "code": "RE002",
+        "item": "Bioenergy: Biomass"
+    },
+    {
+        "code": "779",
+        "item": "Bioenergy: Landfill Gas"
+    },
+    {
+        "code": "780",
+        "item": "Bioenergy: Sewage Treatment Plant Gas"
+    },
+    {
+        "code": "781",
+        "item": "Bioenergy: Biogas"
+    },
+    {
+        "code": "RE003",
+        "item": "Bioenergy: Wood"
+    },
+    {
+        "code": "RE004",
+        "item": "Direct Solar Energy: Solar Photovoltaics (PV)"
+    },
+    {
+        "code": "RE005",
+        "item": "Direct Solar Energy: Solar Thermal"
+    },
+    {
+        "code": "774",
+        "item": "Geothermal Energy"
+    },
+    {
+        "code": "777",
+        "item": "Hydropower Energy"
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Wave"
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Tidal/Tide"
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Ocean Thermal"
+    },
+    {
+        "code": "772",
+        "item": "Wind Energy"
+    },
+    {
+        "code": "RE015",
+        "item": "Nuclear Power: Uranium"
+    },
+    {
+        "code": "775",
+        "item": "Ambient Energy"
+    },
+    {
+        "code": "783",
+        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite"
+    },
+    {
+        "code": "787",
+        "item": "Natural Gas"
+    },
+    {
+        "code": "787",
+        "item": "City Gas"
+    },
+    {
+        "code": "787",
+        "item": "Town Gas"
+    },
+    {
+        "code": "NRE005",
+        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen"
+    },
+    {
+        "code": "789",
+        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium"
+    }
+]

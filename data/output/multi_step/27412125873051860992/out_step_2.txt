@@ -1,0 +1,234 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 39140
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 63,
+        "snippet": "of which non-renewable\nGj\n8,614\n16,488\n-48%",
+        "unit": "GJ",
+        "value": 8614
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 63,
+        "snippet": "of which renewable\nGj\n293,487\n241,475\n22%",
+        "unit": "GJ",
+        "value": 293487
+    },
+    {
+        "code": "817",
+        "item": "Share of non-renewable energy consumption",
+        "page_number": 63,
+        "snippet": "of which non-renewable\nGj\n8,614\n16,488\n-48%",
+        "unit": "percent",
+        "value": 2.93
+    },
+    {
+        "code": "819",
+        "item": "Share of renewable energy consumption",
+        "page_number": 63,
+        "snippet": "of which renewable\nGj\n293,487\n241,475\n22%",
+        "unit": "percent",
+        "value": 97.07
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use",
+        "page_number": 63,
+        "snippet": "Total Electricity\nGj\n302,101\n257,963\n17%",
+        "unit": "GJ",
+        "value": 302101
+    },
+    {
+        "code": "1702",
+        "item": "Electricity from renewable sources",
+        "page_number": 64,
+        "snippet": "Since 2015, electricity supply contracts signed envisage that 100% of power supplied in Italy, and from 2022 for Serbia, must be from\nrenewable sources.",
+        "unit": "percent",
+        "value": 100
+    },
+    {
+        "code": "RE001",
+        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "RE002",
+        "item": "Bioenergy: Biomass",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "779",
+        "item": "Bioenergy: Landfill Gas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "780",
+        "item": "Bioenergy: Sewage Treatment Plant Gas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "781",
+        "item": "Bioenergy: Biogas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "RE003",
+        "item": "Bioenergy: Wood",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "RE004",
+        "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+        "page_number": 64,
+        "snippet": "In 2022, Tenute del Cerro, the Unipol Gruppo's agricultural and wine production company, inaugurated a new winery, a 4,000 m2 building\nused to improve and expand Tenute del Cerro production and storage capacity. The structure is characterised by green construction\ntechniques and is equipped with photovoltaic panels producing 100 KW of energy.",
+        "unit": "KW",
+        "value": 100
+    },
+    {
+        "code": "RE005",
+        "item": "Direct Solar Energy: Solar Thermal",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "774",
+        "item": "Geothermal Energy",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "777",
+        "item": "Hydropower Energy",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Wave",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Tidal/Tide",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Ocean Thermal",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "772",
+        "item": "Wind Energy",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "RE015",
+        "item": "Nuclear Power: Uranium",
+        "page_number": 76,
+        "snippet": "The data published by issuers refer to the regulatory requirements expressed prior to the publication of Delegated Regulation (EU) 2022/1214 amending Delegated Regulation (EU) 2021/2139 with regard\nto economic activities in certain energy sectors and Delegated Regulation (EU) 2021/2178 with regard to public disclosure of specific information relating to such economic activities. Therefore, it was not\npossible to use data reported by issuers on nuclear and gas activities, which were not yet eligible when publishing the latest available data, for the eligibility calculation, nor, consequently, to publish the\ntables provided in Annex III of this document.",
+        "unit": "null",
+        "value": 16280
+    },
+    {
+        "code": "775",
+        "item": "Ambient Energy",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "783",
+        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+        "page_number": 42,
+        "snippet": "The Unipol Group's climate strategy\nTCFD NFS\nIn June 2022, the Board of Directors of Unipol Gruppo adopted the Unipol Group strategy on climate change to detail how the Group is\ngearing up to deal with the risks and take advantage of the opportunities related to the climate, defining new medium/long-term targets\nfor reducing its greenhouse gas emissions to support its decarbonisation process. The climate strategy is an annex to the Sustainability\nPolicy and describes the commitments undertaken by the Group in its three main areas of intervention:\n\u2022\n\u2022\nReal estate development and management activities\nThe Group is committed to a 46.2% reduction by the end of 2030 in Scope 1 and 2 emissions linked to consumption of electricity,\ngas and other energy sources for all buildings over which the Group has direct control, from the operating sites and those of\nthe diversified companies to the real estate where the UNA Group operates and the foreign sites, in line with climate science\nand in particular with the scenario of limiting the increase in the global average temperature to within 1.5\u00b0C.\nInvestment activities\nIn May 2022, the Unipol Group joined the Net-Zero Asset Owner Alliance, thus committing to reducing the emissions of its\ninvestment portfolios to net zero greenhouse gas emissions by 2050 and acting to reduce greenhouse gas emissions through\nthe engagement of investee companies, defining specific interim targets.\n\u2022\nUnderwriting activities\nUnipol is committed to developing a range of insurance products and services to support customers in mitigating and adapting to climate\nchange. Within the 2022-2024 Strategic Plan, the Group again decided to set a target connected to the incidence of products with social\nand environmental value, establishing an objective of 30% to be reached by the end of 2024.\nTo support customers in the transition to a low-carbon economy, Unipol will develop products that incentivise its MV customers to\nreduce their emissions, with the support of telematics, and will pay increasing attention to reducing the environmental impacts of the\nclaims management process, implementing circular economy approaches. Companies that derive 30% or more of their revenues from\ncoal mining or the generation of electricity from thermal coal and companies that adopt unconventional mining practices are excluded\nfrom the underwriting of insurance products.",
+        "unit": "percent",
+        "value": 30
+    },
+    {
+        "code": "787",
+        "item": "Natural Gas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "787",
+        "item": "City Gas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "787",
+        "item": "Town Gas",
+        "page_number": 63,
+        "snippet": "TOTAL SCOPE 1 & 2 EMISSIONS\n16,280 t CO\u2082eq (market-based vs 16,576 t CO2eq in 2021)\n39,140 t CO2eq (location-based vs 35,519 t CO2eq in 2021)",
+        "unit": "t CO2eq",
+        "value": 16280
+    },
+    {
+        "code": "NRE005",
+        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+        "page_number": 42,
+        "snippet": "generation of electricity from thermal coal, and from activities connected with tar sands, shale gas and Arctic drilling, and that do not\nshow a sufficiently ambitious position in terms of transitioning their business to a low-carbon regime.",
+        "unit": "null",
+        "value": 16280
+    },
+    {
+        "code": "789",
+        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+        "page_number": 63,
+        "snippet": "Unipol monitors its greenhouse gas emissions related to the energy consumption of real estate assets for business purposes and the\ncompany fleet (Scope1&2 emissions). With specific regard to real estate assets for business purposes, for 2022 the calculation of Scope\n1 & 2 emissions was determined by the consumption of electricity, gas and other energy sources (gasoil and diesel, LPG, district heating\nand cooling) for all the buildings over which the Group has direct control12.",
+        "unit": "null",
+        "value": 16280
+    }
+]

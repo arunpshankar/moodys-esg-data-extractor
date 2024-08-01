@@ -1,0 +1,41 @@
+[
+    {
+        "code": "429",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total energy consumption of the Fuji Oil Group, covering all its operations worldwide.",
+        "item": "Total energy consumption",
+        "page_number": 1.0,
+        "scope": "Global",
+        "snippet": "8,678,068\nGJ\n302-1",
+        "unit": "GJ",
+        "value": 8678068.0,
+        "year": 2021.0
+    },
+    {
+        "code": "711",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total non-renewable energy consumption of the Fuji Oil Group, covering all its operations worldwide.",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 1.0,
+        "scope": "Global",
+        "snippet": "8,330,666\nGJ\n302-1",
+        "unit": "GJ",
+        "value": 8330666.0,
+        "year": 2021.0
+    },
+    {
+        "code": "432",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data represents the total renewable energy consumption of the Fuji Oil Group, covering all its operations worldwide.",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 1.0,
+        "scope": "Global",
+        "snippet": "347,402\nGJ\n302-1",
+        "unit": "GJ",
+        "value": 347402.0,
+        "year": 2021.0
+    }
+]

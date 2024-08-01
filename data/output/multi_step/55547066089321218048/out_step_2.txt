@@ -1,0 +1,234 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 60,
+        "snippet": "Total comprehensive energy consumption (MWh)8\n63,187.48",
+        "unit": "MWh",
+        "value": 63187.48
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 60,
+        "snippet": "Direct energy consumption arises from the consumption of natural gas during Beike's operation and gasoline from self-owned vehicles. In particular, the natural\ngas consumption was approximately 1,622.33 MWh and gasoline was approximately 271.56 MWh. Indirect energy consumption arises from the\nconsumption of purchased electricity and outsourced heat during Beike's operation.",
+        "unit": "MWh",
+        "value": 1893.9
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "817",
+        "item": "Share of non-renewable energy consumption",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "819",
+        "item": "Share of renewable energy consumption",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use",
+        "page_number": 60,
+        "snippet": "Indirect energy consumption (MWh)\n61,293.59",
+        "unit": "MWh",
+        "value": 61293.59
+    },
+    {
+        "code": "1702",
+        "item": "Electricity from renewable sources",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE001",
+        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE002",
+        "item": "Bioenergy: Biomass",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "779",
+        "item": "Bioenergy: Landfill Gas",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "780",
+        "item": "Bioenergy: Sewage Treatment Plant Gas",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "781",
+        "item": "Bioenergy: Biogas",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE003",
+        "item": "Bioenergy: Wood",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE004",
+        "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+        "page_number": 56,
+        "snippet": "In 2022, we joined hands with external photovoltaic power generation company to put into operation,\nthe first phase of the roof photovoltaic power generation project laid in the Shengdu Home Renovation\nIndustrial Park in Jinhua, Zhejiang province.",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE005",
+        "item": "Direct Solar Energy: Solar Thermal",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "774",
+        "item": "Geothermal Energy",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "777",
+        "item": "Hydropower Energy",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Wave",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Tidal/Tide",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Ocean Thermal",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "772",
+        "item": "Wind Energy",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "RE015",
+        "item": "Nuclear Power: Uranium",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "775",
+        "item": "Ambient Energy",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "783",
+        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "787",
+        "item": "Natural Gas",
+        "page_number": 60,
+        "snippet": "Direct energy consumption arises from the consumption of natural gas during Beike's operation and gasoline from self-owned vehicles. In particular, the natural\ngas consumption was approximately 1,622.33 MWh and gasoline was approximately 271.56 MWh. Indirect energy consumption arises from the\nconsumption of purchased electricity and outsourced heat during Beike's operation.",
+        "unit": "MWh",
+        "value": 1622.33
+    },
+    {
+        "code": "787",
+        "item": "City Gas",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "787",
+        "item": "Town Gas",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "NRE005",
+        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+        "page_number": 60,
+        "snippet": "null",
+        "unit": "null",
+        "value": 0
+    },
+    {
+        "code": "789",
+        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+        "page_number": 60,
+        "snippet": "Direct energy consumption arises from the consumption of natural gas during Beike's operation and gasoline from self-owned vehicles. In particular, the natural\ngas consumption was approximately 1,622.33 MWh and gasoline was approximately 271.56 MWh. Indirect energy consumption arises from the\nconsumption of purchased electricity and outsourced heat during Beike's operation.",
+        "unit": "MWh",
+        "value": 271.56
+    }
+]

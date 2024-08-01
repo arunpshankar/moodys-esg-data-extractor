@@ -1,0 +1,41 @@
+[
+    {
+        "code": "429",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers the entire operations of the company.",
+        "item": "Total energy consumption",
+        "page_number": 29.0,
+        "scope": "Global",
+        "snippet": "Total energy consumption within Sembcorps\nPJ\n170.9\n180.2\n184.3 302-1",
+        "unit": "PJ",
+        "value": 170.9,
+        "year": 2022.0
+    },
+    {
+        "code": "711",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers the entire energy generating assets of the company.",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 29.0,
+        "scope": "Global",
+        "snippet": "Total energy consumption within energy generating assets\nPJ\n151.4\n159.6\n168.5",
+        "unit": "PJ",
+        "value": 151.4,
+        "year": 2022.0
+    },
+    {
+        "code": "432",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers the entire operations of the company.",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 29.0,
+        "scope": "Global",
+        "snippet": "Total energy consumption within Sembcorps\nPJ\n170.9\n180.2\n184.3 302-1\nTotal energy consumption within energy generating assets\nPJ\n151.4\n159.6\n168.5",
+        "unit": "PJ",
+        "value": 19.5,
+        "year": 2022.0
+    }
+]

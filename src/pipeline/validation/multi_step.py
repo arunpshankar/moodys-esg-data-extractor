@@ -23,7 +23,7 @@ async def process_file(file_name: str) -> None:
         logger.error(f"Error processing file {file_name}: {e}")
 
 
-async def run(directory: str, concurrency: int = 5) -> None:
+async def run(directory: str, concurrency: int = 3) -> None:
     """
     Run the multi-step data extraction process on PDF files in the specified directory concurrently.
 

@@ -1,0 +1,67 @@
+[
+    {
+        "code": "429",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers all of Hilton Food's operations.",
+        "item": "Total energy consumption",
+        "page_number": 85.0,
+        "scope": "Global",
+        "snippet": "Total energy\nconsumption\n58,234,453 163,172,334 221,406,787 63,417,662 136,299,658 199,717,320 59,101,892 131,021,126 190,123,018",
+        "unit": "kWh",
+        "value": 221406787.0,
+        "year": 2022.0
+    },
+    {
+        "code": "711",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers all of Hilton Food's operations.",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 85.0,
+        "scope": "Global",
+        "snippet": "Total non-\nrenewable energy\nconsumption\n24,113,640 101,413,813 125,527,452 24,906,799 100,725,802 125,632,601 58,858,892 105,037,093 163,895,985",
+        "unit": "kWh",
+        "value": 125527452.0,
+        "year": 2022.0
+    },
+    {
+        "code": "432",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers all of Hilton Food's operations.",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 85.0,
+        "scope": "Global",
+        "snippet": "Total renewable\nenergy\nconsumption\n34,120,813 61,758,522 95,879,335 38,510,862 35,573,856 74,084,718 243,000 25,984,033 26,227,033",
+        "unit": "kWh",
+        "value": 95879335.0,
+        "year": 2022.0
+    },
+    {
+        "code": "1701",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers all of Hilton Food's operations.",
+        "item": "Total electricity use",
+        "page_number": 85.0,
+        "scope": "Global",
+        "snippet": "Total electricity\nconsumption\n34,131,367 112,454,749 146,586,116 42,295,591 99,553,665 141,849,256 37,769,233 97,429,104 135,198,337",
+        "unit": "kWh",
+        "value": 146586116.0,
+        "year": 2022.0
+    },
+    {
+        "code": "1702",
+        "consumption_type": "Operational Consumption",
+        "flag": "Full",
+        "flag_reasoning": "The data covers all of Hilton Food's operations.",
+        "item": "Electricity from renewable sources",
+        "page_number": 85.0,
+        "scope": "Global",
+        "snippet": "Total renewable\nelectricity\nconsumption\n34,120,813 56,412,858 90,533,671 38,510,862 35,573,856 74,084,718 243,000 25,984,033 26,227,033",
+        "unit": "kWh",
+        "value": 90533671.0,
+        "year": 2022.0
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "France",
+        "data_sources": "Technip Energies' 2022 Sustainability Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Technip Energies N.V.",
+        "year": "2022"
+    }
+}

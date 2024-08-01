@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "China",
+        "data_sources": "WuXi Biologics (Cayman) Inc.'s 2022 ESG Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "WuXi Biologics (Cayman) Inc.",
+        "year": "2022"
+    }
+}

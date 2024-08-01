@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Singapore",
+        "data_sources": "Company's 2022 Sustainability Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "UOL Group Limited",
+        "year": "2022"
+    }
+}

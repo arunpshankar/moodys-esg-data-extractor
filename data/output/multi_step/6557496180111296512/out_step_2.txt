@@ -1,0 +1,234 @@
+[
+    {
+        "code": "429",
+        "item": "Total energy consumption",
+        "page_number": 67,
+        "snippet": "Total energy consumption\n(kWh)\n308,839 13,399,797 13,708,636 169,369 11,935,456 12,104,825 138,782 11,738,394 11,877,176",
+        "unit": "kWh",
+        "value": 13708636
+    },
+    {
+        "code": "711",
+        "item": "Total energy consumption from non-renewable sources",
+        "page_number": 67,
+        "snippet": "Total non-renewable energy\nconsumption (kWh)\n278,723 13,240,119 13,518,842 145,863 11,898,190 12,044,053 135,435 11,698,790 11,834,225",
+        "unit": "kWh",
+        "value": 13518842
+    },
+    {
+        "code": "432",
+        "item": "Total energy consumption from renewable sources",
+        "page_number": 67,
+        "snippet": "Total renewable energy\nconsumption (kWh)\n30,116 159,678 189,794 23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 189794
+    },
+    {
+        "code": "817",
+        "item": "Share of non-renewable energy consumption",
+        "page_number": 67,
+        "snippet": "Total non-renewable energy\nconsumption (kWh)\n278,723 13,240,119 13,518,842 145,863 11,898,190 12,044,053 135,435 11,698,790 11,834,225",
+        "unit": "null",
+        "value": 13518842
+    },
+    {
+        "code": "819",
+        "item": "Share of renewable energy consumption",
+        "page_number": 67,
+        "snippet": "Total renewable energy\nconsumption (kWh)\n30,116 159,678 189,794 23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "null",
+        "value": 189794
+    },
+    {
+        "code": "1701",
+        "item": "Total electricity use",
+        "page_number": 67,
+        "snippet": "Total electricity\nconsumption (kWh)\n166,773 11,696,986 11,863,759 158,697 10,786,913 10,945,610 127,072 10,668,213 10,791,938",
+        "unit": "kWh",
+        "value": 11863759
+    },
+    {
+        "code": "1702",
+        "item": "Electricity from renewable sources",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "RE001",
+        "item": "Bioenergy: Biofuels (Biodiesel, Ethanol)",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "RE002",
+        "item": "Bioenergy: Biomass",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "779",
+        "item": "Bioenergy: Landfill Gas",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "780",
+        "item": "Bioenergy: Sewage Treatment Plant Gas",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "781",
+        "item": "Bioenergy: Biogas",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "RE003",
+        "item": "Bioenergy: Wood",
+        "page_number": 67,
+        "snippet": "Total renewable fuels\nconsumption (kWh)\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    },
+    {
+        "code": "RE004",
+        "item": "Direct Solar Energy: Solar Photovoltaics (PV)",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "RE005",
+        "item": "Direct Solar Energy: Solar Thermal",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "774",
+        "item": "Geothermal Energy",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "777",
+        "item": "Hydropower Energy",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Wave",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Tidal/Tide",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "776",
+        "item": "Ocean Energy: Ocean Thermal",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "772",
+        "item": "Wind Energy",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "RE015",
+        "item": "Nuclear Power: Uranium",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "775",
+        "item": "Ambient Energy",
+        "page_number": 67,
+        "snippet": "Consumption of\nself-generated non-fuel\nrenewable energy (solar)\n30,116 34,009 64,125\n23,506 37,266 60,772\n3,347 39,604 42,951",
+        "unit": "kWh",
+        "value": 64125
+    },
+    {
+        "code": "783",
+        "item": "Coal: Black Coal, Anthracite, Bituminous, Subbituminous, Lignite",
+        "page_number": 67,
+        "snippet": "Total non-renewable fuels\nconsumption (kWh)\n142,066 1,630,545 1,772,612\n10,672 1,042,513 1,053,185\n11,710\n999,356 1,011,066",
+        "unit": "kWh",
+        "value": 1772612
+    },
+    {
+        "code": "787",
+        "item": "Natural Gas",
+        "page_number": 67,
+        "snippet": "Gas\n142,066 1,135,890 1,277,956\n10,672 511,866 522,538\n11,710\n589,214 600,924",
+        "unit": "kWh",
+        "value": 1277956
+    },
+    {
+        "code": "787",
+        "item": "City Gas",
+        "page_number": 67,
+        "snippet": "Gas\n142,066 1,135,890 1,277,956\n10,672 511,866 522,538\n11,710\n589,214 600,924",
+        "unit": "kWh",
+        "value": 1277956
+    },
+    {
+        "code": "787",
+        "item": "Town Gas",
+        "page_number": 67,
+        "snippet": "Gas\n142,066 1,135,890 1,277,956\n10,672 511,866 522,538\n11,710\n589,214 600,924",
+        "unit": "kWh",
+        "value": 1277956
+    },
+    {
+        "code": "NRE005",
+        "item": "Oil: Crude Oil, Shale Oil, Light Oil, Heavy Oil, Heating Oil, Tar Sands, Oil Sands, Crude Bitumen",
+        "page_number": 67,
+        "snippet": "Total non-renewable fuels\nconsumption (kWh)\n142,066 1,630,545 1,772,612\n10,672 1,042,513 1,053,185\n11,710\n999,356 1,011,066",
+        "unit": "kWh",
+        "value": 1772612
+    },
+    {
+        "code": "789",
+        "item": "Fuels: Diesel, Gasoline, LPG (Liquid Petroleum Gas), ULP (Unleaded Petrol), Automotive fuel, Kerosene, Aviation fuel, Jet fuel, Premium",
+        "page_number": 67,
+        "snippet": "Diesel\n117,962\n117,962\n155,906 155,906\n35,401 35,401",
+        "unit": "kWh",
+        "value": 117962
+    }
+]

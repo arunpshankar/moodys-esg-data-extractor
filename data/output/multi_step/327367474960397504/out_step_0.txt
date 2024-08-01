@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Bermuda",
+        "data_sources": "BW LPG Integrated Annual Report 2022",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "BW LPG Limited",
+        "year": "2022"
+    }
+}

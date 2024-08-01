@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Japan",
+        "data_sources": "Company's 2022 ESG Report",
+        "fiscal_year_end": "31/03/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Fuji Oil Holdings Inc.",
+        "year": "2022"
+    }
+}

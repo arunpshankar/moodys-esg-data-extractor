@@ -22,13 +22,5 @@
         "snippet": "14,357",
         "unit": "kWh",
         "value": 14357
-    },
-    {
-        "code": "1701",
-        "item": "Total electricity use",
-        "page_number": 50,
-        "snippet": "null",
-        "unit": "null",
-        "value": -1
     }
 ]

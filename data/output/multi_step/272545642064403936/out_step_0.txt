@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "UK",
+        "data_sources": "Taylor Wimpey's 2022 Sustainability Supplement and ESG Addendum",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Taylor Wimpey plc",
+        "year": "2022"
+    }
+}

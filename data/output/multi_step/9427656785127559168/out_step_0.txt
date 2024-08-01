@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "UK",
+        "data_sources": "Hilton Food Group PLC 2022 Sustainability Report",
+        "fiscal_year_end": "31/12/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Hilton Food Group PLC",
+        "year": "2022"
+    }
+}

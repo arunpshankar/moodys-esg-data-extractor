@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "Japan",
+        "data_sources": "NOK Corporation's 2022 Sustainability Report",
+        "fiscal_year_end": "31/03/2022",
+        "geographical_scope": "Global",
+        "organization_name": "NOK CORPORATION",
+        "year": "2022"
+    }
+}

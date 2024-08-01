@@ -1,0 +1,10 @@
+{
+    "metadata": {
+        "country": "USA",
+        "data_sources": "Greif's 2022 Sustainability Report",
+        "fiscal_year_end": "31/10/2022",
+        "geographical_scope": "Global",
+        "organization_name": "Greif",
+        "year": "2022"
+    }
+}
